@@ -25,20 +25,22 @@ const Header = (props) => {
   }
   const products = [
     {
-      name: "Google Ads",
-      description: "Obtenez plus clients grace à google",
+      name: "Audite gratuite",
+      description:
+        "Ayez un aperçu de l'impact de notre expertise sur votre entreprise",
       href: "#service",
       icon: ArrowTrendingUpIcon,
     },
     {
-      name: "Landing page",
-      description: "Création de landing page optimisées",
+      name: "Pack Essenciel",
+      description: "Profitez d'un partenariat long terme pour votre croissance",
       href: "#service",
       icon: EyeIcon,
     },
     {
-      name: "Full pack",
-      description: "Nous sommes garant de votre vivibilité en ligne",
+      name: "Pack Prenium",
+      description:
+        "Notre expertise pour une stratégie complète et personnalisée",
       href: "#service",
       icon: FireIcon,
     },
