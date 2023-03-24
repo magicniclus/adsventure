@@ -7,24 +7,18 @@ const Faq = () => {
     {
       question: "Qu'est-ce qu'Adsventure ?",
       answer:
-        "Adsventure est une agence spécialisée en gestion de campagnes Google Ads et en création de landing pages optimisées. Nous aidons les entreprises à améliorer leur taux de conversion et à soutenir leur croissance grâce à notre expertise en publicité Google Ads.",
+        "Adsventure est une agence spécialisée en gestion de campagnes Google Ads et en optimisation de stratégies publicitaires. Nous aidons les entreprises à améliorer leur taux de conversion et à soutenir leur croissance grâce à notre expertise en publicité Google Ads.",
     },
     {
       question:
         "Pourquoi choisir Adsventure pour gérer mes campagnes Google Ads ?",
       answer:
-        "En choisissant Adsventure, vous bénéficiez de l'expertise de spécialistes certifiés Google Ads, qui travaillent sans relâche pour concevoir des campagnes publicitaires percutantes et ciblées, adaptées à vos objectifs de croissance. Nous proposons également des landing pages optimisées pour maximiser votre taux de conversion.",
+        "En choisissant Adsventure, vous bénéficiez de l'expertise de spécialistes certifiés Google Ads, qui travaillent sans relâche pour concevoir des campagnes publicitaires percutantes et ciblées, adaptées à vos objectifs de croissance. Nous proposons également des stratégies publicitaires optimisées pour maximiser votre taux de conversion.",
     },
     {
       question: "Combien coûtent vos services ?",
       answer:
         "Les tarifs de nos services varient en fonction de la taille et de la complexité de votre projet. Pour obtenir un devis personnalisé, n'hésitez pas à nous contacter et à nous fournir des informations sur vos objectifs et vos besoins spécifiques. Il est important de préciser qu'Adsventure ne collabore pas avec des entreprises générant moins de 25 000 € de chiffre d'affaires par mois.",
-    },
-    {
-      question:
-        "Comment fonctionne le processus de création d'une landing page ?",
-      answer:
-        "Notre équipe de concepteurs web travaille en étroite collaboration avec vous pour créer une landing page esthétiquement attrayante et fonctionnelle. Nous nous assurons que la page est optimisée pour encourager les visiteurs à passer à l'action, en prenant en compte la navigation, le choix des images et des mots-clés.",
     },
     {
       question:
@@ -34,7 +28,7 @@ const Faq = () => {
     },
     {
       question:
-        "Combien de temps faut-il pour voir des résultats avec Google Ads et les landing pages optimisées ?",
+        "Combien de temps faut-il pour voir des résultats avec des campagnes Google Ads  optimisées ?",
       answer:
         "Les résultats varient en fonction de plusieurs facteurs, tels que la concurrence, le budget publicitaire et l'efficacité de la landing page. Cependant, de nombreux clients commencent à voir des améliorations notables dans les conversions et les ventes après quelques semaines de travail avec Adsventure.",
     },
