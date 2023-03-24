@@ -2,13 +2,8 @@ import React from "react";
 import { Fragment, useState } from "react";
 import { Dialog, Disclosure, Popover, Transition } from "@headlessui/react";
 import {
-  ArrowPathIcon,
   Bars3Icon,
-  ChartPieIcon,
-  CursorArrowRaysIcon,
   ArrowTrendingUpIcon,
-  FingerPrintIcon,
-  SquaresPlusIcon,
   XMarkIcon,
   EyeIcon,
   FireIcon,
@@ -29,13 +24,13 @@ const Header = (props) => {
       description:
         "Ayez un aperçu de l'impact de notre expertise sur votre entreprise",
       href: "#service",
-      icon: ArrowTrendingUpIcon,
+      icon: EyeIcon,
     },
     {
       name: "Pack Essenciel",
       description: "Profitez d'un partenariat long terme pour votre croissance",
       href: "#service",
-      icon: EyeIcon,
+      icon: ArrowTrendingUpIcon,
     },
     {
       name: "Pack Prenium",
