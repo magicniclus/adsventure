@@ -9,56 +9,53 @@ const Prestations = () => {
   ];
   const tiers = [
     {
-      name: "Création de vos landing pages",
+      name: "Audite gratuite en visio (Offre découverte)",
       id: "tier-freelancer",
       href: "https://calendly.com/adventure-contact/rendez-vous-decouverte?month=2023-03",
-      price: "400€",
+      price: "Free",
       description:
-        "Boostez vos conversions en ligne avec nos landing page sur mesure et performantes.",
+        "Testez nos services sans engagement et découvrez comment notre expertise peut booster vos résultats avec cet audit gratuit en visio !",
       features: [
-        "Création du design",
-        "Developpement de vos landing page",
-        "Adaptation des landing page sur tous les supports",
-        "Optimisation SEO de nos pages",
-        "Service de suivi 3 mois",
-      ],
-      mostPopular: false,
-    },
-    {
-      name: "Création et optimisation de vos campagnes google ads",
-      id: "tier-startup",
-      href: "https://calendly.com/adventure-contact/rendez-vous-decouverte?month=2023-03",
-      description:
-        "Spécialisé et certifié google ads, nous vous aidons à atteindre le plus efficassement vos futures clients.",
-      features: [
-        "Etude de marché",
-        "Création de votre compte publicitaire",
-        "Recherche des mots clés",
-        "Optimisation de vos campagnes",
-        "Analyse des résultats",
-        "Un analyste attitré",
-        "Suivi 24h/24",
+        "Analyse de votre présence en ligne actuelle",
+        "Identification des points d'amélioration",
+        "Recommandations pour optimiser vos campagnes Google Ads",
+        "Session de questions-réponses pour comprendre vos objectifs et besoins",
+        "Devis personnalisé pour nos services payants",
       ],
       mostPopular: true,
     },
     {
-      name: "Full pack",
+      name: "Pack Essentiel",
+      id: "tier-startup",
+      href: "https://calendly.com/adventure-contact/rendez-vous-decouverte?month=2023-03",
+      price: "399€",
+      description:
+        "Optez pour notre Pack Essentiel et bénéficiez d'un partenariat à long terme pour une croissance stable et durable de votre présence en ligne.",
+      features: [
+        "Audite complet de votre compte Google Ads",
+        "Création ou optimisation d'une campagne Google Ads",
+        "Sélection des mots-clés pertinents et ajustement des enchères",
+        "Optimisation des annonces et des extensions",
+        "Suivi et rapport de performance mensuel",
+        "Session de révision et d'ajustement mensuelle",
+      ],
+      mostPopular: false,
+    },
+    {
+      name: "Pack Premium ",
       id: "tier-enterprise",
       href: "https://calendly.com/adventure-contact/rendez-vous-decouverte?month=2023-03",
+      price: "599",
       description:
-        "Création, developpement et optimisation de votre site web, création et optimisation de vos campagne publicitaires, notre service Full-Pack vous permet de bénéficier de notre expertise sur l'ensemble des préstation lié à votre activité afin de répondre au mieux a vos attente.",
+        "Choisissez le Pack Premium pour une stratégie publicitaire complète et personnalisée qui vous permettra de dominer votre marché et d'obtenir des résultats exceptionnels.",
       features: [
-        "Création du design",
-        "Developpement du site/landing page",
-        "Adaptation du site sur tous les supports",
-        "Optimisation SEO du site",
-        "Etude de marché",
-        "Création de votre compte publicitaire",
-        "Recherche des mots clés",
-        "Optimisation de vos campagnes",
-        "Analyse des résultats",
-        "Un analyste attitré",
-        "Support 5/7jours",
+        "Tous les avantages du Pack Essentiel",
+        "Analyse approfondie des mots-clés et des audiences",
+        "Optimisation avancée des annonces et des extensions",
+        "Mise en place de stratégies d'enchères avancées pour maximiser le retour sur investissement",
+        "Gestion de budget publicitaire optimisée pour une performance durable",
+        "Coordination et intégration avec d'autres canaux de marketing en ligne (réseaux sociaux, email marketing, etc.)",
+        "Session de révision et d'ajustement bimensuelle",
       ],
       mostPopular: false,
     },
@@ -79,13 +76,14 @@ const Prestations = () => {
           </h2>
         </div>
         <p className="mx-auto mt-6 max-w-2xl text-center text-lg leading-8 text-gray-300">
-          Bénéficiez de notre expertise et de notre savoir-faire pour la
-          création de votre site web, de vos landing pages ou de votre
-          ecommerce. De plus, notre service de création et de gestion de
-          campagnes publicitaires sur le réseau de recherche le plus efficace,
-          Google Ads, vous permettra d'atteindre vos objectifs rapidement et
-          efficacement. Nous mettons notre expérience à votre disposition pour
-          vous accompagner tout au long du processus.
+          énéficiez de notre <strong>expertise</strong> et de notre{" "}
+          <strong>savoir-faire</strong> pour la création de votre site web,
+          landing pages ou ecommerce. Profitez également de notre service de{" "}
+          <strong>
+            création et gestion de campagnes publicitaires Google Ads
+          </strong>{" "}
+          pour atteindre vos objectifs rapidement et efficacement. Nous vous
+          accompagnons tout au long du processus.
         </p>
         <div className="isolate mx-auto mt-10 grid max-w-md grid-cols-1 gap-8 lg:mx-0 lg:max-w-none lg:grid-cols-3">
           {tiers.map((tier) => (
