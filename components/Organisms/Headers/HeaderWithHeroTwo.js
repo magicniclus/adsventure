@@ -17,7 +17,7 @@ const HeaderWithHeroTwo = () => {
     gsap.fromTo(
       imageRefOne.current,
       {
-        y: 500,
+        y: 800,
         opacity: 0,
       },
       {
@@ -30,7 +30,7 @@ const HeaderWithHeroTwo = () => {
     gsap.fromTo(
       imageRefTwo.current,
       {
-        y: 500,
+        y: 800,
         opacity: 0,
       },
       {
@@ -44,7 +44,7 @@ const HeaderWithHeroTwo = () => {
     gsap.fromTo(
       imageRefThree.current,
       {
-        y: 500,
+        y: 800,
         opacity: 0,
       },
       {
@@ -57,7 +57,7 @@ const HeaderWithHeroTwo = () => {
     gsap.fromTo(
       imageRefFour.current,
       {
-        y: 500,
+        y: 800,
         opacity: 0,
       },
       {
@@ -71,7 +71,7 @@ const HeaderWithHeroTwo = () => {
     gsap.fromTo(
       imageRefFive.current,
       {
-        y: 500,
+        y: 800,
         opacity: 0,
       },
       {
@@ -86,7 +86,7 @@ const HeaderWithHeroTwo = () => {
     gsap.fromTo(
       textRef.current,
       {
-        x: -100,
+        x: -1200,
         opacity: 0,
       },
       {
@@ -195,11 +195,16 @@ const HeaderWithHeroTwo = () => {
                       <br /> nouveaux sommets
                     </h1>
                     <p className="relative mt-6 text-lg leading-8 text-gray-600 sm:max-w-md lg:max-w-none">
-                      Laissez nous prendre en charge votre présence en ligne et
-                      améliorer votre visibilité auprès de vos clients. Grâce à
-                      nos services professionnels de gestion de campagnes
-                      publicitaires Google Ads et de développement de site
-                      web/landing page, soyez au plus proche de vos clients.
+                      Laissez-nous prendre en charge votre{" "}
+                      <strong>présence en ligne</strong> et améliorer votre{" "}
+                      <strong>visibilité</strong> auprès de vos clients. Grâce à
+                      nos services professionnels de{" "}
+                      <strong>
+                        gestion de campagnes publicitaires Google Ads
+                      </strong>{" "}
+                      et de création de{" "}
+                      <strong>stratégies publicitaires ciblées</strong>, soyez
+                      au plus proche de vos clients et maximisez votre impact.
                     </p>
                   </div>
                   <div className="mt-10 flex items-center gap-x-6">
