@@ -90,33 +90,37 @@ const ContentSection = () => {
               </div>
               <div className="max-w-xl">
                 <p className="mt-6">
-                  Découvrez Adsventure, votre partenaire privilégié en gestion
-                  de campagnes Google Ads et en création de landing pages
-                  optimisées. Notre mission est de vous guider vers un taux de
-                  conversion amélioré et une croissance soutenue grâce à notre
-                  expertise en publicité Google Ads. Avec Adsventure, profitez
-                  des avantages indéniables de Google Ads, quel que soit votre
-                  projet.
+                  Découvrez <strong>Adsventure</strong>, votre partenaire
+                  privilégié en <strong>gestion de campagnes Google Ads</strong>{" "}
+                  et en optimisation de stratégies publicitaires, fort de{" "}
+                  <strong>plus de 10 ans d'expérience</strong>. Notre mission
+                  est de vous guider vers un{" "}
+                  <strong>taux de conversion amélioré</strong> et une{" "}
+                  <strong>croissance soutenue</strong> grâce à notre expertise
+                  en publicité <strong>Google Ads</strong>. Avec Adsventure,
+                  profitez des avantages indéniables de Google Ads, quel que
+                  soit votre projet.
                 </p>
                 <p className="mt-8">
-                  Nos spécialistes certifiés Google Ads comprennent l'importance
-                  d'une stratégie efficace et personnalisée pour chaque
-                  entreprise. Ils travaillent sans relâche pour concevoir des
-                  campagnes publicitaires percutantes et ciblées, adaptées à vos
-                  objectifs de croissance. En parallèle, nos concepteurs web
-                  chevronnés créent des landing pages esthétiquement attrayantes
-                  et fonctionnelles, captivantes pour vos visiteurs et les
-                  incitant à passer à l'action. Nous optimisons chaque aspect de
-                  votre page, de la navigation au choix des images et des
-                  mots-clés, pour maximiser votre taux de conversion.
+                  Nos <strong>spécialistes certifiés Google Ads</strong>{" "}
+                  comprennent l'importance d'une stratégie efficace et
+                  personnalisée pour chaque entreprise. Ils travaillent sans
+                  relâche pour concevoir des campagnes publicitaires percutantes
+                  et ciblées, adaptées à vos objectifs de croissance. En
+                  parallèle, notre équipe se consacre à l'analyse et à
+                  l'optimisation de votre présence en ligne, captivante pour vos
+                  visiteurs et les incitant à passer à l'action. Nous optimisons
+                  chaque aspect de votre stratégie publicitaire, des enchères
+                  aux choix des mots-clés et des audiences, pour maximiser votre{" "}
+                  <strong>taux de conversion</strong>.
                 </p>
                 <p className="mt-8">
-                  Faites l'expérience de la combinaison gagnante de nos landing
-                  pages optimisées et de notre maîtrise en matière de Google Ads
-                  pour booster vos ventes et votre taux de conversion. Ne
-                  laissez pas passer cette opportunité, rejoignez dès
-                  aujourd'hui l'aventure Adsventure et découvrez les avantages
-                  de notre expertise en Google Ads !
+                  Faites l'expérience de la combinaison gagnante de notre
+                  maîtrise en matière de <strong>Google Ads</strong> pour
+                  booster vos ventes et votre taux de conversion. Ne laissez pas
+                  passer cette opportunité, rejoignez dès aujourd'hui l'aventure{" "}
+                  <strong>Adsventure</strong> et découvrez les avantages de
+                  notre expertise en Google Ads !
                 </p>
               </div>
             </div>
