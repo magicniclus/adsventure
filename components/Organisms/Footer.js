@@ -1,11 +1,22 @@
 import React from "react";
+import { useRouter } from "next/router";
 
 const Footer = () => {
+  const router = useRouter();
   const navigation = {
     solutions: [
-      { name: "Landing page", href: "#service" },
-      { name: "Google adwords", href: "#service" },
-      { name: "Full pack", href: "#service" },
+      {
+        name: "Audite Gratuite",
+        href: router.pathname === "/" ? "#service" : "/#service",
+      },
+      {
+        name: "Pack Essenciel",
+        href: router.pathname === "/" ? "#service" : "/#service",
+      },
+      {
+        name: "Pack Prenium",
+        href: router.pathname === "/" ? "#service" : "/#service",
+      },
     ],
     support: [
       {
@@ -30,9 +41,16 @@ const Footer = () => {
       },
     ],
     company: [
-      { name: "A Propos", href: "#content" },
-      { name: "F.A.Q", href: "#FAQ" },
+      {
+        name: "A Propos",
+        href: router.pathname === "/" ? "#content" : "/#content",
+      },
+      {
+        name: "F.A.Q",
+        href: router.pathname === "/" ? "#FAQ" : "/#FAQ",
+      },
       { name: "Nous Contacter", href: "/contact" },
+      { name: "Blog", href: "/blog" },
     ],
     legal: [
       {
@@ -115,7 +133,7 @@ const Footer = () => {
           <div className="space-y-8">
             <img
               className="h-7"
-              src="./images/logo/AdsVenture-blue-little.png"
+              src="/images/logo/AdsVenture-blue-little.png"
               alt="Adsventure"
             />
             <p className="text-sm leading-6 text-gray-600">
