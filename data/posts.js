@@ -129,7 +129,7 @@ const posts = [
       "Découvrez tout ce qu'il faut savoir sur les agences Google Ads, comment fonctionnent-elles, comment se positionner, les avantages par ville, l'importance de la certification et pourquoi travailler avec une agence de communication spécialisée en Google Ads, comment réussir une campagne Google Ads et bien plus encore.",
     category: { title: "Marketing", href: "marketing" },
     author: {
-      name: "ChatGPT",
+      name: "Nicolas CASTERA",
       role: "Expert SEO",
       href: "#",
       imageUrl:
