@@ -36,7 +36,7 @@ const index = () => {
                       {post.date}
                     </time>
                     <Link
-                      href={`/blog/${post.category.href}`}
+                      href={`/blog/${post.slug}`}
                       className="relative z-10 rounded-full bg-gray-50 py-1.5 px-3 font-medium text-gray-600 hover:bg-gray-100"
                     >
                       {post.category.title}
@@ -44,7 +44,7 @@ const index = () => {
                   </div>
                   <div className="group relative">
                     <h3 className="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
-                      <Link href={`/blog/${post.category.href}`}>
+                      <Link href={`/blog/${post.slug}`}>
                         <span className="absolute inset-0" />
                         {post.title}
                       </Link>
