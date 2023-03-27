@@ -13,30 +13,32 @@ import {
   ChevronDownIcon,
   PhoneIcon,
 } from "@heroicons/react/20/solid";
+import { useRouter } from "next/router";
 
 const Header = (props) => {
+  const router = useRouter();
   function classNames(...classes) {
     return classes.filter(Boolean).join(" ");
   }
   const products = [
     {
-      name: "Audite gratuite",
+      name: "Audite Gratuite",
       description:
         "Ayez un aperçu de l'impact de notre expertise sur votre entreprise",
-      href: "#service",
+      href: router.pathname === "/" ? "#service" : "/#service",
       icon: EyeIcon,
     },
     {
       name: "Pack Essenciel",
       description: "Profitez d'un partenariat long terme pour votre croissance",
-      href: "#service",
+      href: router.pathname === "/" ? "#service" : "/#service",
       icon: ArrowTrendingUpIcon,
     },
     {
       name: "Pack Prenium",
       description:
         "Notre expertise pour une stratégie complète et personnalisée",
-      href: "#service",
+      href: router.pathname === "/" ? "#service" : "/#service",
       icon: FireIcon,
     },
   ];
@@ -74,7 +76,7 @@ const Header = (props) => {
             <span className="sr-only">adsventure</span>
             <img
               className="h-10 w-auto"
-              src="./images/logo/AdsVenture-blue-little.png"
+              src="/images/logo/AdsVenture-blue-little.png"
               alt="logo adsventure"
             />
           </a>
