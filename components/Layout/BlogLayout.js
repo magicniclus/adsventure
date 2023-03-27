@@ -36,8 +36,8 @@ const BlogLayout = (props) => {
   return (
     <>
       <Head>
-        <title>{props.title}</title>
-        <meta name="description" content={props.description} />
+        <title>{data.title}</title>
+        <meta name="description" content={data.metaDescription} />
       </Head>
       <main className="min-h-[100vh]">
         <Header />
