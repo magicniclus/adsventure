@@ -2,7 +2,6 @@ import React from "react";
 import Head from "next/head";
 import Footer from "../Organisms/Footer";
 import Header from "../Organisms/Headers/Header";
-import HeaderWithHero from "../Organisms/Headers/HeaderWithHero";
 import HeaderWithHeroTwo from "../Organisms/Headers/HeaderWithHeroTwo";
 
 const LandingPage = (props) => {
