@@ -14,7 +14,7 @@ export default function BlogPost() {
 
   return (
     <>
-      <BlogLayout title={post.title} />
+      <BlogLayout datas={post} />
     </>
   );
 }
