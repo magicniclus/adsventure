@@ -122,6 +122,7 @@ const posts = [
     ],
     metaDescription:
       "Découvrez tout ce qu'il faut savoir sur les agences Google Ads, comment fonctionnent-elles, comment se positionner, les avantages par ville, l'importance de la certification etpourquoi travailler avec une agence de communication spécialisée en Google Ads, comment réussir une campagne Google Ads et bien plus encore. Tout ce qu'il faut savoir pour optimiser votre référencement naturel sur Google.",
+    image: { url: "agence-google.jpg", alt: "Agence Google Ads" },
     imageUrl:
       "https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80",
     date: "Mar 27, 2023",
