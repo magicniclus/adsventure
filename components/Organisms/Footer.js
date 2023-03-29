@@ -20,24 +20,36 @@ const Footer = () => {
     ],
     support: [
       {
-        name: "Agence Paris",
-        href: "https://calendly.com/adventure-contact/rendez-vous-decouverte?month=2023-03",
+        name: "Agence Google Ads Paris",
+        href: "/agences/paris",
       },
       {
-        name: "Agence Bordeaux",
-        href: "https://calendly.com/adventure-contact/rendez-vous-decouverte?month=2023-03",
+        name: "Agence Google Ads Bordeaux",
+        href: "/agences/bordeaux",
       },
       {
-        name: "Agence Cannes",
-        href: "https://calendly.com/adventure-contact/rendez-vous-decouverte?month=2023-03",
+        name: "Agence Google Ads Cannes",
+        href: "/agences/cannes",
       },
       {
-        name: "Agence Lyon",
-        href: "https://calendly.com/adventure-contact/rendez-vous-decouverte?month=2023-03",
+        name: "Agence Google Ads Lyon",
+        href: "/agences/lyon",
       },
       {
-        name: "Agence Marseille",
-        href: "https://calendly.com/adventure-contact/rendez-vous-decouverte?month=2023-03",
+        name: "Agence Google Ads Marseille",
+        href: "/agences/marseille",
+      },
+      {
+        name: "Agence Google Ads Nice",
+        href: "/agences/nice",
+      },
+      {
+        name: "Agence Google Ads Toulouse",
+        href: "/agences/toulouse",
+      },
+      {
+        name: "Agence Google Ads Montpelier",
+        href: "/agences/montpelier",
       },
     ],
     company: [
