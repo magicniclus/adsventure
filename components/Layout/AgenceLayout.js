@@ -39,7 +39,7 @@ const AgenceLayout = (props) => {
                       <div className="relative rounded-full py-1 px-3 text-sm leading-6 text-gray-500 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
                         Découvrez toutes nos solutions Google ads
                         <a
-                          href="#"
+                          href="/#service"
                           className="whitespace-nowrap font-semibold text-indigo-600"
                         >
                           <span
@@ -65,10 +65,10 @@ const AgenceLayout = (props) => {
                         Je prends rendez-vous
                       </a>
                       <a
-                        href="#"
+                        href="/"
                         className="text-sm font-semibold leading-6 text-gray-900"
                       >
-                        En savoir plus <span aria-hidden="true">→</span>
+                        Qui sommes nous ? <span aria-hidden="true">→</span>
                       </a>
                     </div>
                   </div>
