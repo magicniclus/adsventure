@@ -3,36 +3,10 @@ import Head from "next/head";
 import Footer from "../Organisms/Footer";
 import Header from "../Organisms/Headers/Header";
 import HeroBottom from "../Organisms/Hero/HeroBottom";
+import { getContent } from "../../utils/getContent";
 
 const BlogLayout = (props) => {
   const data = props.datas;
-
-  const getContent = (content) => {
-    switch (content.tag) {
-      case "h2":
-        return (
-          <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">
-            {content.content}
-          </h2>
-        );
-      case "h3":
-        return (
-          <h3 className="mt-16 text-xl font-bold tracking-tight text-gray-900">
-            {content.content}
-          </h3>
-        );
-      case "h4":
-        return (
-          <h4 className="mt-16 text-lg font-bold tracking-tight text-gray-900">
-            {content.content}
-          </h4>
-        );
-      case "p":
-        return <p className="mt-6 text-xl leading-8">{content.content}</p>;
-      default:
-        return null;
-    }
-  };
   return (
     <>
       <Head>
@@ -45,9 +19,9 @@ const BlogLayout = (props) => {
           <div className="mx-auto max-w-3xl text-base leading-7 text-gray-700">
             <div className="md:float-left mr-8 mb-4">
               <img
-                src="/images/blogs/agence-google.jpg"
-                alt="your-image-description"
-                className="md:h-64 md:w-64 w-full object-cover object-top"
+                src={"/images/blogs/" + data.image.url}
+                alt={data.image.alt}
+                className="md:h-64 w-full object-cover object-top"
               />
             </div>
             <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
