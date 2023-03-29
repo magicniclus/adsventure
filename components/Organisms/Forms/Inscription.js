@@ -84,7 +84,7 @@ export default function Inscription() {
                   />
                 </dt>
                 <dd>
-                  Contacter l'agence de Paris
+                  Contacter l'agence Google Ads de Paris
                   <span aria-hidden="true">&rarr;</span>
                 </dd>
               </a>
@@ -99,7 +99,7 @@ export default function Inscription() {
                   />
                 </dt>
                 <dd>
-                  Contacter l'agence de Bordeaux{" "}
+                  Contacter l'agence Google Ads de Bordeaux
                   <span aria-hidden="true">&rarr;</span>
                 </dd>
               </a>
@@ -114,7 +114,7 @@ export default function Inscription() {
                   />
                 </dt>
                 <dd>
-                  Contacter l'agence de Cannes{" "}
+                  Contacter l'agence Google Ads de Cannes
                   <span aria-hidden="true">&rarr;</span>
                 </dd>
               </a>
@@ -129,7 +129,7 @@ export default function Inscription() {
                   />
                 </dt>
                 <dd>
-                  Contacter l'agence de Lyon{" "}
+                  Contacter l'agence Google Ads de Lyon
                   <span aria-hidden="true">&rarr;</span>
                 </dd>
               </a>
@@ -144,7 +144,7 @@ export default function Inscription() {
                   />
                 </dt>
                 <dd>
-                  Contacter l'agence de Marseille{" "}
+                  Contacter l'agence Google Ads de Marseille
                   <span aria-hidden="true">&rarr;</span>
                 </dd>
               </a>
