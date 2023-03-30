@@ -3,11 +3,11 @@ import posts from "../../data/posts";
 import LandingPage from "../../components/Layout/LandingPage";
 import Link from "next/link";
 
-const index = () => {
+export default function index({ posts }) {
   return (
     <LandingPage
       description="Consultez notre blog et apprenez à améliorer votre stratégie de marketing digital grâce à nos conseils en SEA, SEO. Adsventure spécialiste Google Ads"
-      title=" Découvrez tous nos articles blog pour booster votre activité"
+      title="Découvrez tous nos articles blog pour booster votre activité"
       canonical="blog"
     >
       <div className="bg-white py-24 sm:py-32">
@@ -84,6 +84,12 @@ const index = () => {
       </div>
     </LandingPage>
   );
-};
-
-export default index;
+}
+export async function getStaticProps() {
+  const postsData = posts;
+  return {
+    props: {
+      posts: postsData,
+    },
+  };
+}
