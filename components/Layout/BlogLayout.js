@@ -9,7 +9,9 @@ import { useSelector } from "react-redux";
 import ErrorModal from "../Organisms/Modales/ErrorModal";
 
 const BlogLayout = (props) => {
+  const robots = props.robots || "follow";
   const data = props.datas;
+  const canonical = data.slug;
   const state = useSelector((state) => state);
   const [show, setShow] = useState(false);
   const [showError, setShowError] = useState(false);
@@ -25,6 +27,13 @@ const BlogLayout = (props) => {
       <Head>
         <title>{data.title}</title>
         <meta name="description" content={data.metaDescription} />
+        <meta name="robots" content={"index, " + robots} />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="language" content="fr" />
+        <link
+          rel="canonical"
+          href={"https://www.adventure-agency.com/" + canonical}
+        />
       </Head>
       <main className="min-h-[100vh]">
         <Header />
