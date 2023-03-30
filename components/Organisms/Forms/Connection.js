@@ -1,7 +1,28 @@
-import React from "react";
+import React, { useState } from "react";
+import { useDispatch } from "react-redux";
 import { LockClosedIcon } from "@heroicons/react/20/solid";
+import { updateErrorModal } from "../../../redux/actions";
+import { useRouter } from "next/router";
 
 const Connection = () => {
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const dispatch = useDispatch();
+  const router = useRouter();
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    if (!email || !password) {
+      dispatch(updateErrorModal(true, "Veuillez remplir tous les champs"));
+    } else {
+      dispatch(
+        updateErrorModal(true, "Vous n'êtes pas encore client Adsventure")
+      );
+      setTimeout(() => {
+        dispatch(updateErrorModal(false, ""));
+        router.push("/");
+      }, 5000);
+    }
+  };
   return (
     <>
       <div className="flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8 mt-20">
@@ -16,7 +37,12 @@ const Connection = () => {
               Connectez-vous à votre espace
             </h1>
           </div>
-          <form className="mt-8 space-y-6" action="#" method="POST">
+          <form
+            className="mt-8 space-y-6"
+            action="#"
+            method="POST"
+            onSubmit={handleSubmit}
+          >
             <input type="hidden" name="remember" defaultValue="true" />
             <div className="-space-y-px rounded-md shadow-sm">
               <div>
@@ -31,6 +57,8 @@ const Connection = () => {
                   required
                   className="relative block w-full rounded-t-md border-0 py-1.5 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:z-10 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 pl-3"
                   placeholder="Email address"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
                 />
               </div>
               <div>
@@ -45,6 +73,8 @@ const Connection = () => {
                   required
                   className="relative block w-full rounded-b-md border-0 py-1.5 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:z-10 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6 pl-3"
                   placeholder="Password"
+                  value={password}
+                  onChange={(e) => setPassword(e.target.value)}
                 />
               </div>
             </div>
