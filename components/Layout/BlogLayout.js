@@ -19,9 +19,9 @@ const BlogLayout = (props) => {
           <div className="mx-auto max-w-3xl text-base leading-7 text-gray-700">
             <div className="md:float-left mr-8 mb-4">
               <img
-                src={"/images/blogs/" + data.image.url}
+                src={data.imageUrl}
                 alt={data.image.alt}
-                className="md:h-64 w-full object-cover object-top"
+                className="h-52 w-full object-cover object-top"
               />
             </div>
             <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
@@ -32,7 +32,7 @@ const BlogLayout = (props) => {
                 <div key={index}>{getContent(c)}</div>
               ))}
             <div className="relative mt-8 flex items-center gap-x-4">
-              <span className="inline-flex h-6 w-6 items-center justify-center rounded-full bg-gray-500">
+              <span className="inline-flex h-10 w-10 items-center justify-center rounded-full bg-gray-500">
                 <span className="text-xs font-medium leading-none text-white">
                   NC
                 </span>
