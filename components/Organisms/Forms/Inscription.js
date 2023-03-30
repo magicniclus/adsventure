@@ -1,6 +1,8 @@
 import { useState } from "react";
 import { writeUserData } from "../../../firebase/dataManager";
 import { BuildingOffice2Icon } from "@heroicons/react/24/outline";
+import { useDispatch, useSelector } from "react-redux";
+import { updateErrorModal, updateValidModal } from "../../../redux/actions";
 
 export default function Inscription() {
   const [name, setName] = useState("");
@@ -9,6 +11,10 @@ export default function Inscription() {
   const [phone, setPhone] = useState("");
   const [message, setMessage] = useState("");
 
+  const state = useSelector((state) => state);
+
+  const dispatch = useDispatch();
+
   function generateUniqueId() {
     return Date.now().toString(36) + Math.random().toString(36).substr(2, 9);
   }
@@ -16,7 +22,17 @@ export default function Inscription() {
   const handleSubmit = (e) => {
     e.preventDefault();
     const userId = generateUniqueId();
-    writeUserData(userId, name, surname, email, phone, message);
+    if (!name || !surname || !email || !phone || !message) {
+      dispatch(updateErrorModal(true, "Veuillez remplir tous les champs"));
+    } else {
+      writeUserData(userId, name, surname, email, phone, message)
+        .then((success) => {
+          dispatch(updateValidModal(true, "Votre message a bien été envoyé"));
+        })
+        .catch((error) => {
+          dispatch(updateValidModal(true, "Une erreur est survenue"));
+        });
+    }
   };
 
   return (
