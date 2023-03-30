@@ -16,6 +16,8 @@ import ErrorModal from "../Organisms/Modales/ErrorModal";
 const AgenceLayout = (props) => {
   const title = props.title;
   const state = useSelector((state) => state);
+  const canonical = props.canonical || "";
+  const robots = props.robots || "follow";
   const [show, setShow] = useState(false);
   const [showError, setShowError] = useState(false);
   useEffect(() => {
@@ -27,8 +29,27 @@ const AgenceLayout = (props) => {
   return (
     <>
       <Head>
-        <title>{props.title}</title>
-        <meta name="description" content={props.description} />
+        <title>
+          Agence SEA {props.title}, experte en optimisation de sites web
+        </title>
+        <meta
+          name="description"
+          content={
+            "Faites confiance à notre agence à " +
+            props.title +
+            " pour vos campagnes publicitaires. Boostez votre visibilité et votre chiffre d'affaires grâce à nos experts."
+          }
+        />
+        <meta name="robots" content={"index, " + robots} />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="language" content="fr" />
+        <link
+          rel="canonical"
+          href={
+            "https://www.adventure-agency.com/agences/" +
+            props.title.toLowerCase()
+          }
+        />
       </Head>
       <main className="min-h-[100vh]">
         <div className="bg-white">
@@ -126,12 +147,12 @@ const AgenceLayout = (props) => {
               <p className="text-lg font-semibold leading-8 tracking-tight text-indigo-600">
                 Deploy faster
               </p>
-              <h1 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+              <h2 className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
                 Agence de {props.title}
-              </h1>
-              <h2 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">
-                Optimisez votre visibilité locale
               </h2>
+              <h3 className="mt-16 text-2xl font-bold tracking-tight text-gray-900">
+                Optimisez votre visibilité locale
+              </h3>
               <p className="mt-6 text-xl leading-8 text-gray-700">
                 Notre agence Google Ads vous accompagne à {props.title} pour
                 améliorer votre visibilité en ligne. Atteignez votre cible
