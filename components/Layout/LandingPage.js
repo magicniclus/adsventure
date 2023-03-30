@@ -10,6 +10,8 @@ import ErrorModal from "../Organisms/Modales/ErrorModal";
 const LandingPage = (props) => {
   const description = props.description || null;
   const title = props.title || null;
+  const canonical = props.canonical || "";
+  const robots = props.robots || "follow";
   const withHero = props.withHero || false;
   const state = useSelector((state) => state);
   const [show, setShow] = useState(false);
@@ -25,6 +27,13 @@ const LandingPage = (props) => {
       <Head>
         <title>{props.title}</title>
         <meta name="description" content={props.description} />
+        <meta name="robots" content={"index, " + robots} />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="language" content="fr" />
+        <link
+          rel="canonical"
+          href={"https://www.adventure-agency.com/" + canonical}
+        />
       </Head>
       <main className="min-h-[100vh] relative">
         {withHero ? <HeaderWithHeroTwo /> : <Header />}
