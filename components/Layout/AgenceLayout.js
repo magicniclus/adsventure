@@ -46,7 +46,7 @@ const AgenceLayout = (props) => {
         <link
           rel="canonical"
           href={
-            "https://www.adventure-agency.com/agences/" +
+            "https://www.adsventure-agency.com/agences/" +
             props.title.toLowerCase()
           }
         />
