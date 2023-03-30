@@ -4,7 +4,11 @@ import { CheckCircleIcon } from "@heroicons/react/20/solid";
 
 const index = () => {
   return (
-    <LandingPage>
+    <LandingPage
+      title="Mentions Légales - Informations légales l'agence Adsventure"
+      description="Découvrez les mentions légales de Adsventure Agence. Informations légales sur notre agence spécialisée en SEA et Google Ads sur toute la france."
+      canonical="mentions-legales"
+    >
       <div className="bg-white py-32 px-6 lg:px-8">
         <div className="mx-auto max-w-3xl text-base leading-7 text-gray-700">
           <h1 className="mt-2 text-3xl font-bold tracking-tight text-indigo-600 sm:text-4xl">
