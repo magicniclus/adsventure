@@ -3,7 +3,11 @@ import { CheckCircleIcon } from "@heroicons/react/20/solid";
 import LandingPage from "../../components/Layout/LandingPage";
 const index = () => {
   return (
-    <LandingPage>
+    <LandingPage
+      title="Politique de confidentialité | Adsventure Agence SEA"
+      description="Découvrez la politique de confidentialité Adsventure Agence SEA expert Google. Comment nous collectons et protégeons les données de nos utilisateurs."
+      canonical="politique-de-confidentialite"
+    >
       <div className="bg-white py-32 px-6 lg:px-8">
         <div className="mx-auto max-w-3xl text-base leading-7 text-gray-700">
           <h1 className="mt-2 text-3xl font-bold tracking-tight text-indigo-600 sm:text-4xl">
