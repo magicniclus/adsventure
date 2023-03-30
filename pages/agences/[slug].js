@@ -10,7 +10,11 @@ export default function Agence() {
   const agency = getAgencys.find((agency) => agency.slug === slug);
 
   if (!agency) {
-    return <div>Agence non trouvée</div>;
+    return (
+      <div className="h-full w-full flex justify-center items-center">
+        Agence non trouvée
+      </div>
+    );
   }
 
   return (
@@ -19,11 +23,6 @@ export default function Agence() {
     </>
   );
 }
-
-// pages/agences/[slug].js
-// import { useRouter } from "next/router";
-// import { getAgencys } from "../../data/agencys";
-// import AgenceLayout from "../../components/Layout/AgenceLayout";
 
 // export default function Agence({ agency }) {
 //   const router = useRouter();
