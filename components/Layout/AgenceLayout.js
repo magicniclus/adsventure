@@ -10,8 +10,6 @@ import {
 } from "@heroicons/react/20/solid";
 import Cta from "../Organisms/Cta";
 import ValideModale from "../Organisms/Modales/ValideModale";
-import { useEffect } from "react";
-import ValideModale from "../Organisms/Modales/ValideModale";
 import { useSelector } from "react-redux";
 import ErrorModal from "../Organisms/Modales/ErrorModal";
 
