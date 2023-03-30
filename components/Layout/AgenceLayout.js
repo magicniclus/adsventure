@@ -163,16 +163,23 @@ const AgenceLayout = (props) => {
                     </p>
                   </blockquote>
                   <figcaption className="mt-8 flex gap-x-4">
-                    <img
+                    {/* <img
                       src="https://images.unsplash.com/photo-1502685104226-ee32379fefbe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
                       alt=""
                       className="mt-1 h-10 w-10 flex-none rounded-full bg-gray-50"
-                    />
-                    <div className="text-sm leading-6">
-                      <div className="font-semibold text-gray-900">
-                        Brenna Goyette
+                    /> */}
+                    <div className="text-sm leading-6 flex items-center">
+                      <span className="inline-flex h-6 w-6 items-center justify-center rounded-full bg-gray-500 mr-3">
+                        <span className="text-xs font-medium leading-none text-white">
+                          NC
+                        </span>
+                      </span>
+                      <div className="">
+                        <div className="font-semibold text-gray-900">
+                          Nicolas Castera, CEO
+                        </div>
+                        <div className="text-gray-600">@Nicolas</div>
                       </div>
-                      <div className="text-gray-600">@brenna</div>
                     </div>
                   </figcaption>
                 </figure>
