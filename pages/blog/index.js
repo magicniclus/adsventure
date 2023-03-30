@@ -5,7 +5,11 @@ import Link from "next/link";
 
 const index = () => {
   return (
-    <LandingPage>
+    <LandingPage
+      description="Consultez notre blog et apprenez à améliorer votre stratégie de marketing digital grâce à nos conseils en SEA, SEO. Adsventure spécialiste Google Ads"
+      title=" Découvrez tous nos articles blog pour booster votre activité"
+      canonical="blog"
+    >
       <div className="bg-white py-24 sm:py-32">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl text-center">
