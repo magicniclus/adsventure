@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Head from "next/head";
 import Footer from "../Organisms/Footer";
 import Header from "../Organisms/Headers/Header";
@@ -9,9 +9,23 @@ import {
   CheckBadgeIcon,
 } from "@heroicons/react/20/solid";
 import Cta from "../Organisms/Cta";
+import ValideModale from "../Organisms/Modales/ValideModale";
+import { useEffect } from "react";
+import ValideModale from "../Organisms/Modales/ValideModale";
+import { useSelector } from "react-redux";
+import ErrorModal from "../Organisms/Modales/ErrorModal";
 
 const AgenceLayout = (props) => {
   const title = props.title;
+  const state = useSelector((state) => state);
+  const [show, setShow] = useState(false);
+  const [showError, setShowError] = useState(false);
+  useEffect(() => {
+    state.validModal?.show ? setShow(true) : setShow(false);
+  }, [state.validModal]);
+  useEffect(() => {
+    state.errorModal?.show ? setShowError(true) : setShowError(false);
+  }, [state.errorModal]);
   return (
     <>
       <Head>
@@ -269,6 +283,8 @@ const AgenceLayout = (props) => {
         <Cta />
       </main>
       <Footer />
+      {show ? <ValideModale /> : null}
+      {showError ? <ErrorModal /> : null}
     </>
   );
 };
