@@ -1,12 +1,25 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Head from "next/head";
 import Footer from "../Organisms/Footer";
 import Header from "../Organisms/Headers/Header";
 import HeroBottom from "../Organisms/Hero/HeroBottom";
 import { getContent } from "../../utils/getContent";
+import ValideModale from "../Organisms/Modales/ValideModale";
+import { useSelector } from "react-redux";
+import ErrorModal from "../Organisms/Modales/ErrorModal";
 
 const BlogLayout = (props) => {
   const data = props.datas;
+  const state = useSelector((state) => state);
+  const [show, setShow] = useState(false);
+  const [showError, setShowError] = useState(false);
+
+  useEffect(() => {
+    state.validModal?.show ? setShow(true) : setShow(false);
+  }, [state.validModal]);
+  useEffect(() => {
+    state.errorModal?.show ? setShowError(true) : setShowError(false);
+  }, [state.errorModal]);
   return (
     <>
       <Head>
@@ -50,6 +63,8 @@ const BlogLayout = (props) => {
         <HeroBottom />
       </main>
       <Footer />
+      {show ? <ValideModale /> : null}
+      {showError ? <ErrorModal /> : null}
     </>
   );
 };
