@@ -1,10 +1,24 @@
-import {
-  BuildingOffice2Icon,
-  EnvelopeIcon,
-  PhoneIcon,
-} from "@heroicons/react/24/outline";
+import { useState } from "react";
+import { writeUserData } from "../../../firebase/dataManager";
+import { BuildingOffice2Icon } from "@heroicons/react/24/outline";
 
 export default function Inscription() {
+  const [name, setName] = useState("");
+  const [surname, setSurname] = useState("");
+  const [email, setEmail] = useState("");
+  const [phone, setPhone] = useState("");
+  const [message, setMessage] = useState("");
+
+  function generateUniqueId() {
+    return Date.now().toString(36) + Math.random().toString(36).substr(2, 9);
+  }
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    const userId = generateUniqueId();
+    writeUserData(userId, name, surname, email, phone, message);
+  };
+
   return (
     <div className="relative isolate bg-gray-900 min-h-[100vh] flex items-center">
       <div className="mx-auto grid max-w-7xl grid-cols-1 lg:grid-cols-2">
@@ -155,6 +169,7 @@ export default function Inscription() {
           action="#"
           method="POST"
           className="px-6 pb-24 pt-20 sm:pb-32 lg:py-48 lg:px-8"
+          onSubmit={handleSubmit}
         >
           <div className="mx-auto max-w-xl lg:mr-0 lg:max-w-lg">
             <div className="grid grid-cols-1 gap-y-6 gap-x-8 sm:grid-cols-2">
@@ -172,6 +187,8 @@ export default function Inscription() {
                     id="first-name"
                     autoComplete="given-name"
                     className="block w-full rounded-md border-0 bg-white/5 py-2 px-3.5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6"
+                    value={name}
+                    onChange={(e) => setName(e.target.value)}
                   />
                 </div>
               </div>
@@ -189,6 +206,8 @@ export default function Inscription() {
                     id="last-name"
                     autoComplete="family-name"
                     className="block w-full rounded-md border-0 bg-white/5 py-2 px-3.5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6"
+                    value={surname}
+                    onChange={(e) => setSurname(e.target.value)}
                   />
                 </div>
               </div>
@@ -206,6 +225,8 @@ export default function Inscription() {
                     id="email"
                     autoComplete="email"
                     className="block w-full rounded-md border-0 bg-white/5 py-2 px-3.5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6"
+                    value={email}
+                    onChange={(e) => setEmail(e.target.value)}
                   />
                 </div>
               </div>
@@ -223,6 +244,8 @@ export default function Inscription() {
                     id="phone-number"
                     autoComplete="tel"
                     className="block w-full rounded-md border-0 bg-white/5 py-2 px-3.5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6"
+                    value={phone}
+                    onChange={(e) => setPhone(e.target.value)}
                   />
                 </div>
               </div>
@@ -239,7 +262,8 @@ export default function Inscription() {
                     id="message"
                     rows={4}
                     className="block w-full rounded-md border-0 bg-white/5 py-2 px-3.5 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-indigo-500 sm:text-sm sm:leading-6"
-                    defaultValue={""}
+                    value={message}
+                    onChange={(e) => setMessage(e.target.value)}
                   />
                 </div>
               </div>
