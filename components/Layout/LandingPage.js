@@ -32,7 +32,7 @@ const LandingPage = (props) => {
         <meta name="language" content="fr" />
         <link
           rel="canonical"
-          href={"https://www.adventure-agency.com/" + canonical}
+          href={"https://www.adsventure-agency.com/" + canonical}
         />
       </Head>
       <main className="min-h-[100vh] relative">
