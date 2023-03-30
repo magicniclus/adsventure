@@ -4,7 +4,7 @@ import { getDatabase, ref, set } from "firebase/database";
 export function writeUserData(userId, name, surname, email, phone, message) {
   return new Promise((resolve, reject) => {
     const db = getDatabase();
-    set(ref(db, "users/" + userId), {
+    set(ref(db, "contacts/" + userId), {
       name: name,
       surname: surname,
       email: email,
