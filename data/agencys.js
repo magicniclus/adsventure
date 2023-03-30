@@ -4,7 +4,7 @@ const agencys = [
   "Marseille",
   "Paris",
   "Toulouse",
-  "Montpellier",
+  "Montpelier",
   "Cannes",
   "Nice",
 ];
