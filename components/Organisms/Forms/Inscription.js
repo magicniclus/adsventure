@@ -96,9 +96,9 @@ export default function Inscription() {
                 </defs>
               </svg>
             </div>
-            <h2 className="text-3xl font-bold tracking-tight text-white">
+            <h1 className="text-3xl font-bold tracking-tight text-white">
               Adsenture à votre écoute
-            </h2>
+            </h1>
             <p className="mt-6 text-lg leading-8 text-gray-300">
               Notre service client est la pour répondre à vos interogations.
             </p>
