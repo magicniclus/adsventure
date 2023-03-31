@@ -22,7 +22,7 @@ const Custome404 = () => {
           Nous sommes désolés, mais la page que vous recherchez n'existe pas.
         </p>
         <div className="mt-10 flex justify-center">
-          <a href="#" className="text-sm font-semibold leading-7 text-white">
+          <a href="/" className="text-sm font-semibold leading-7 text-white">
             <span aria-hidden="true">&larr;</span> Retour à l'accueil
           </a>
         </div>
