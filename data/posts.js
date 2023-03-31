@@ -3,10 +3,8 @@ const posts = [
     id: 1,
     imageUrl:
       "https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3603&q=80",
-    headTitle:
-      "Découvrez les agences Google Ads et comment elles boostent votre visibilité",
-    title:
-      "Découvrez les agences Google Ads et comment elles boostent votre visibilité",
+    headTitle: "Comment une agence Google Ads boostent votre visibilité",
+    title: "Comment une agence Google Ads boostent votre visibilité",
     slug: "agences-google-ads",
     content: [
       {
@@ -16,7 +14,7 @@ const posts = [
       {
         tag: "p",
         content:
-          "Une agence Google Ads est une entreprise spécialisée dans la mise en place et la gestion de campagnes publicitaires sur le réseau de recherche et le réseau de display de Google. Elle accompagne les annonceurs dans la création et l'optimisation de leurs annonces afin de maximiser leur visibilité sur les pages de résultats de Google et générer du trafic qualifié.",
+          "Une agence Google Ads est une entreprise spécialisée dans la mise en place et la gestion de campagnes publicitaires sur le réseau de recherche et le réseau de display de Google. Elle accompagne les annonceurs dans la création et l'optimisation de leurs annonces afin de maximiser leur visibilité sur les résultats de Google et générer du trafic qualifié.",
       },
       {
         tag: "h2",
@@ -564,7 +562,7 @@ const posts = [
     id: 9,
     headTitle:
       "Intelligence artificielle et Google Ads : révolution du marketing digital",
-    title: "IA et Google Ads : la révolution marketing",
+    title: "IA et Google Ads : la révolution marketing avec Adsventure",
     slug: "intelligence-artificielle-google-ads",
     content: [
       {
@@ -634,7 +632,7 @@ const posts = [
       },
     ],
     metaDescription:
-      "Découvrez comment l'intelligence artificielle révolutionne le marketing digital et les campagnes Google Ads, et comment Adsventure peut vous accompagner dans cette transformation.",
+      "Découvrez comment l'intelligence artificielle révolutionne le marketing digital et les campagnes Google Ads, et comment Adsventure vous accompagne.",
     description: "IA et Google Ads : la révolution marketing chez Adsventure",
     image: {
       url: "https://images.unsplash.com/photo-1655720828018-edd2daec9349?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2832&q=80",
