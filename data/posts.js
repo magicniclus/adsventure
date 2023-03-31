@@ -262,7 +262,7 @@ const posts = [
       "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2074&q=80",
   },
   {
-    id: 6,
+    id: 5,
     headTitle: "Optimisez vos campagnes Google Ads avec Adsventure",
     title: "Boostez votre marketing digital avec Adsventure et Google",
     slug: "optimisez-vos-campagnes-google-ads-avec-adsventure",
@@ -354,7 +354,7 @@ const posts = [
     },
   },
   {
-    id: 7,
+    id: 6,
     headTitle:
       "Google Ads vs Facebook Ads : décryptage et avantages avec Adsventure",
     title:
@@ -431,7 +431,7 @@ const posts = [
       "https://images.unsplash.com/photo-1616499370260-485b3e5ed653?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80",
   },
   {
-    id: 8,
+    id: 7,
     headTitle:
       "Facebook Ads c'est quoi ? Découvrez les avantages de Google Ads avec Adsventure",
     title: "Facebook Ads c'est quoi ? Préférez Google Ads avec Adsventure",
@@ -481,6 +481,250 @@ const posts = [
     },
     imageUrl:
       "https://images.unsplash.com/photo-1600859343572-566b5ee12973?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1548&q=80",
+  },
+  {
+    id: 8,
+    headTitle: "Créez un Business en Ligne en 2023 avec Adsventure",
+    title: "Créez un Business en Ligne en 2023 avec Adsventure",
+    slug: "creer-business-en-ligne-2023-adsventure",
+    content: [
+      {
+        tag: "h2",
+        content: "Lancer son business en ligne en 2023 : étapes clés",
+      },
+      {
+        tag: "p",
+        content:
+          "Créer un business en ligne est une opportunité intéressante pour générer des revenus, avec un budget réduit et une grande flexibilité. Dans cet article, nous aborderons les étapes clés pour monter un business en ligne, les outils utiles et comment Adsventure peut vous accompagner dans cette aventure.",
+      },
+      {
+        tag: "h2",
+        content: "Idées de business en ligne à petit budget",
+      },
+      {
+        tag: "p",
+        content:
+          "Il existe de nombreuses idées de business en ligne pour démarrer avec un petit budget. Voici quelques exemples : dropshipping, blog affilié, infopreneur, coaching, création de contenu, e-commerce, etc.",
+      },
+      {
+        tag: "h2",
+        content: "Outils pour créer son business en ligne",
+      },
+      {
+        tag: "p",
+        content:
+          "Plusieurs outils sont indispensables pour créer un business en ligne : plateformes e-commerce (Shopify, WooCommerce), systèmes de gestion de contenu (WordPress), outils de marketing digital (Google Ads, Facebook Ads, Meta Ads) et bien d'autres.",
+      },
+      {
+        tag: "h2",
+        content: "Le rôle du marketing digital dans votre business en ligne",
+      },
+      {
+        tag: "p",
+        content:
+          "Le marketing digital joue un rôle crucial dans la réussite de votre business en ligne. Il permet d'atteindre un large public, de générer du trafic qualifié, d'optimiser le taux de conversion et d'accroître la visibilité de votre entreprise sur le web.",
+      },
+      {
+        tag: "h2",
+        content: "Pourquoi choisir Adsventure pour votre business en ligne ?",
+      },
+      {
+        tag: "p",
+        content:
+          "Adsventure est une agence spécialisée en Google Ads et Facebook Ads, offrant une expertise en marketing digital et une solide expérience dans la création de campagnes publicitaires performantes. En faisant appel à Adsventure, vous bénéficierez d'un accompagnement sur mesure pour atteindre vos objectifs et faire prospérer votre business en ligne.",
+      },
+      {
+        tag: "h2",
+        content: "Conclusion",
+      },
+      {
+        tag: "p",
+        content:
+          "Créer un business en ligne en 2023 est un projet ambitieux mais réalisable, avec les bonnes idées, les outils adaptés et l'accompagnement d'une agence comme Adsventure. N'hésitez pas à nous contacter pour discuter de vos projets et bénéficier de notre expertise en marketing digital.",
+      },
+    ],
+    metaDescription:
+      "Découvrez comment créer un business en ligne en 2023 avec Adsventure, une agence spécialisée en marketing digital et Google Ads. Suivez nos conseils et réussissez !",
+    description:
+      "Créez un business en ligne en 2023 avec l'aide d'Adsventure, une agence spécialisée en marketing digital et Google Ads. Suivez nos conseils et réussissez !",
+    image: {
+      url: "https://images.unsplash.com/photo-1665686304355-0b09b1e3b03c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
+      alt: "Création d'un business en ligne",
+    },
+    date: "Mar 27, 2023",
+    category: { title: "Informatif", href: "Informatif" },
+    author: {
+      name: "Nicolas CASTERA",
+      role: "Expert SEO",
+    },
+    imageUrl:
+      "https://images.unsplash.com/photo-1665686304355-0b09b1e3b03c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
+  },
+  {
+    id: 9,
+    headTitle:
+      "Intelligence artificielle et Google Ads : révolution du marketing digital",
+    title: "IA et Google Ads : la révolution marketing",
+    slug: "intelligence-artificielle-google-ads",
+    content: [
+      {
+        tag: "h2",
+        content:
+          "L'intelligence artificielle : une discipline scientifique clé",
+      },
+      {
+        tag: "p",
+        content:
+          "L'intelligence artificielle (IA) est issue de l'informatique, une discipline scientifique qui étudie les fondements des calculs, le traitement et la communication de l'information. L'IA a rapidement évolué et a ouvert la porte à des applications innovantes dans de nombreux domaines, y compris le marketing digital.",
+      },
+      {
+        tag: "h2",
+        content: "Impact de l'IA sur le marketing digital et Google Ads",
+      },
+      {
+        tag: "p",
+        content:
+          "L'intelligence artificielle a un impact considérable sur le marketing digital, notamment sur les campagnes Google Ads. Les algorithmes d'IA sont capables d'analyser d'énormes quantités de données pour optimiser les campagnes publicitaires, améliorer le ciblage et augmenter le retour sur investissement (ROI). Des générateurs d'image IA aux chatbots comme ChatGPT, l'IA révolutionne la manière dont les agences gèrent les campagnes de marketing digital.",
+      },
+      {
+        tag: "h2",
+        content:
+          "Adsventure : votre partenaire pour réussir avec l'IA et Google Ads",
+      },
+      {
+        tag: "p",
+        content:
+          "Adsventure est une agence spécialisée en Google Ads qui comprend l'importance de l'intelligence artificielle dans le marketing digital. Notre équipe d'experts en marketing digital et en IA vous accompagne dans l'optimisation de vos campagnes publicitaires, en tirant parti des dernières avancées technologiques pour maximiser vos résultats.",
+      },
+      {
+        tag: "h3",
+        content: "Optimisation de campagnes Google Ads avec l'IA",
+      },
+      {
+        tag: "p",
+        content:
+          "En utilisant l'intelligence artificielle, notre agence Google Ads optimise les campagnes publicitaires de manière plus efficace et automatisée. L'IA permet de mieux comprendre les comportements des utilisateurs, d'ajuster les enchères en temps réel et d'améliorer le ciblage, ce qui se traduit par une augmentation du ROI.",
+      },
+      {
+        tag: "h3",
+        content: "Générateurs d'image IA pour des visuels percutants",
+      },
+      {
+        tag: "p",
+        content:
+          "Les générateurs d'image IA offrent des possibilités créatives illimitées pour les visuels de vos campagnes Google Ads. En utilisant l'intelligence artificielle, nous pouvons créer des images uniques et engageantes qui attirent l'attention de votre audience cible et renforcent l'impact de vos annonces.",
+      },
+      {
+        tag: "h3",
+        content: "ChatGPT : le futur de la communication client",
+      },
+      {
+        tag: "p",
+        content:
+          "Les chatbots IA comme ChatGPT sont des outils précieux pour amélioérer l'expérience client et la communication. En intégrant ChatGPT dans votre stratégie marketing, vous pouvez offrir un service client réactif et personnalisé, répondant aux questions des clients et les guidant tout au long de leur parcours d'achat.",
+      },
+      {
+        tag: "h2",
+        content: "Conclusion",
+      },
+      {
+        tag: "p",
+        content:
+          "L'intelligence artificielle révolutionne le marketing digital et les campagnes Google Ads. En tirant parti de l'IA, Adsventure peut vous aider à optimiser vos campagnes publicitaires, à créer des visuels captivants avec des générateurs d'image IA et à améliorer la communication client avec des chatbots comme ChatGPT. Faites confiance à notre expertise pour vous accompagner dans cette révolution technologique et maximiser votre ROI.",
+      },
+    ],
+    metaDescription:
+      "Découvrez comment l'intelligence artificielle révolutionne le marketing digital et les campagnes Google Ads, et comment Adsventure peut vous accompagner dans cette transformation.",
+    description: "IA et Google Ads : la révolution marketing chez Adsventure",
+    image: {
+      url: "https://images.unsplash.com/photo-1655720828018-edd2daec9349?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2832&q=80",
+      alt: "ia",
+    },
+    date: "Mar 27, 2023",
+    category: {
+      title: "Informatif",
+      href: "Informatif",
+    },
+    author: {
+      name: "Nicolas CASTERA",
+      role: "Expert SEO",
+    },
+    imageUrl:
+      "https://images.unsplash.com/photo-1655720828018-edd2daec9349?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2832&q=80",
+  },
+  {
+    id: 4,
+    headTitle: "Leads et Google Ads : Maximisez vos résultats avec Adsventure",
+    title: "Leads et Google Ads : Maximisez vos résultats avec Adsventure",
+    slug: "leads-et-google-ads",
+    content: [
+      {
+        tag: "h2",
+        content: "Qu'est-ce qu'un lead ?",
+      },
+      {
+        tag: "p",
+        content:
+          "Un lead est un individu ou une entreprise qui a montré un intérêt pour un produit ou un service et qui est susceptible de devenir un client. Les leads sont générés à travers diverses stratégies de marketing, telles que le lead marketing, la génération de leads, l'acquisition de leads et la lead acquisition.",
+      },
+      {
+        tag: "h2",
+        content: "Les différents types de leads et niveaux de qualification",
+      },
+      {
+        tag: "p",
+        content:
+          "Il existe plusieurs types de leads et niveaux de qualification, notamment les leads commerciaux, les prospects marketing, les clients, les fiches client et le service client. Chaque type de lead a un niveau de qualification différent, allant des prospects peu qualifiés aux clients fidèles.",
+      },
+      {
+        tag: "h2",
+        content:
+          "Pourquoi Google Ads est la meilleure stratégie pour générer des leads",
+      },
+      {
+        tag: "p",
+        content:
+          "Google Ads est une plateforme publicitaire puissante qui permet aux entreprises de cibler précisément leur audience et d'attirer des leads qualifiés. En combinant les compétences d'une agence Google Ads spécialisée, comme Adsventure, avec les outils avancés de Google, les entreprises peuvent maximiser leur ROI et générer davantage de leads.",
+      },
+      {
+        tag: "h2",
+        content:
+          "Adsventure, le spécialiste de la génération de leads avec Google Ads",
+      },
+      {
+        tag: "p",
+        content:
+          "Adsventure est une agence experte en marketing digital et en campagnes Google Ads. Nous aidons les entreprises à optimiser leur référencement naturel et à générer des leads de qualité grâce à des stratégies efficaces et personnalisées. Faites confiance à notre expertise pour vous accompagner dans l'acquisition de nouveaux clients et l'amélioration de votre ROI.",
+      },
+      {
+        tag: "h2",
+        content: "Conclusion",
+      },
+      {
+        tag: "p",
+        content:
+          "En comprenant ce qu'est un lead et en adoptant une stratégie de génération de leads efficace avec Google Ads, les entreprises peuvent maximiser leur potentiel de croissance. Adsventure est le spécialiste incontournable pour vous accompagner dans cette démarche et vous aider à atteindre vos objectifs marketing.",
+      },
+    ],
+    metaDescription:
+      "Découvrez ce qu'est un lead, les types de leads et comment Adsventure, spécialiste Google Ads, peut vous aider à générer des leads qualifiés.",
+    description:
+      "Leads et Google Ads : Maximisez vos résultats avec Adsventure",
+    image: {
+      url: "https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80",
+      alt: "Génération de leads",
+    },
+    date: "Mar 27, 2023",
+    category: {
+      title: "Marketing",
+      href: "marketing",
+    },
+    author: {
+      name: "Nicolas CASTERA",
+      role: "Expert SEO",
+    },
+    imageUrl:
+      "https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80",
   },
 ];
 
