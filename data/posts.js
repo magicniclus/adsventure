@@ -542,7 +542,7 @@ const posts = [
       },
     ],
     metaDescription:
-      "Découvrez comment créer un business en ligne en 2023 avec Adsventure, une agence spécialisée en marketing digital et Google Ads. Suivez nos conseils et réussissez !",
+      "Découvrez comment créer un business en ligne en 2023 avec Adsventure, une agence spécialisée en marketing digital et Google Ads. Suivez nos conseils !",
     description:
       "Créez un business en ligne en 2023 avec l'aide d'Adsventure, une agence spécialisée en marketing digital et Google Ads. Suivez nos conseils et réussissez !",
     image: {
