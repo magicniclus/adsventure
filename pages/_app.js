@@ -6,12 +6,12 @@ import { useEffect } from "react";
 import Head from "next/head";
 
 function MyApp({ Component, pageProps }) {
-  // useEffect(() => {
-  //   const tagManagerArgs = {
-  //     gtmId: "GTM-WP9R782",
-  //   };
-  //   TagManager.initialize(tagManagerArgs);
-  // }, []);
+  useEffect(() => {
+    const tagManagerArgs = {
+      gtmId: "GTM-K3X5GGQ",
+    };
+    TagManager.initialize(tagManagerArgs);
+  }, []);
   return (
     <>
       <Head>
