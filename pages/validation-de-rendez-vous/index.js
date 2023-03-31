@@ -21,7 +21,7 @@ const index = () => {
           Une invitation a été envoyée à votre adresse email.
         </p>
         <div className="mt-10 flex justify-center">
-          <a href="#" className="text-sm font-semibold leading-7 text-white">
+          <a href="/" className="text-sm font-semibold leading-7 text-white">
             <span aria-hidden="true">&larr;</span> Retour à l'accueil
           </a>
         </div>
