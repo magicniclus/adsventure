@@ -4,6 +4,7 @@ import Cta from "../components/Organisms/Cta";
 import Faq from "../components/Organisms/FAQ/Faq";
 import Prestations from "../components/Organisms/Prestations";
 import Testimonials from "../components/Organisms/Testimonials";
+import Timeline from "../components/Organisms/Timeline";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       withHero={true}
     >
       <ContentSection />
+      <Timeline />
       <Prestations />
       <Faq />
       <Testimonials />
