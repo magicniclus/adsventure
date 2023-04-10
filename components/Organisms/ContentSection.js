@@ -64,12 +64,12 @@ const ContentSection = () => {
                 />
                 <blockquote className="mt-6 text-xl font-semibold leading-8 text-white">
                   <p>
-                    “En tant que CEO d'Adsventure, je vous assure l'engagement
-                    de notre équipe passionnée pour optimiser votre présence en
-                    ligne et améliorer vos taux de conversion. Faites confiance
-                    à notre expertise en création de landing pages et gestion de
+                    “"En qualité de CEO d'Adsventure, je peux vous garantir
+                    l'engagement total de notre équipe passionnée à améliorer
+                    votre présence en ligne et à augmenter vos taux de
+                    conversion. Faites confiance à notre expertise gestion de
                     campagnes Google Ads pour propulser votre entreprise vers un
-                    succès sans précédent.”
+                    succès sans précédent."”
                   </p>
                 </blockquote>
                 <figcaption className="mt-6 text-sm leading-6 text-gray-300">
