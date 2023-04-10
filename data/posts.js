@@ -553,7 +553,7 @@ const posts = [
     category: { title: "Informatif", href: "Informatif" },
     author: {
       name: "Nicolas CASTERA",
-      role: "Expert SEO",
+      role: "CEO/Expert SEA",
     },
     imageUrl:
       "https://images.unsplash.com/photo-1665686304355-0b09b1e3b03c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80",
@@ -645,7 +645,7 @@ const posts = [
     },
     author: {
       name: "Nicolas CASTERA",
-      role: "Expert SEO",
+      role: "CEO/Expert SEA",
     },
     imageUrl:
       "https://images.unsplash.com/photo-1655720828018-edd2daec9349?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2832&q=80",
@@ -719,7 +719,7 @@ const posts = [
     },
     author: {
       name: "Nicolas CASTERA",
-      role: "Expert SEO",
+      role: "CEO/Expert SEA",
     },
     imageUrl:
       "https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1674&q=80",
