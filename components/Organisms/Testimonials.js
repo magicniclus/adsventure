@@ -32,7 +32,7 @@ const Testimonials = () => {
                   <div className="font-semibold text-white">Franck</div>
                   <a
                     className="mt-1 text-gray-400"
-                    href="https://www.terabois-isolation.fr/nous-contacter"
+                    href="https://www.avenue-immo.com/"
                   >
                     Créateur de avenue-immo.com
                   </a>
