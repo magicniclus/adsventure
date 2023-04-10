@@ -6,7 +6,7 @@ const Testimonials = () => {
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
         <div className="mx-auto grid max-w-2xl grid-cols-1 lg:mx-0 lg:max-w-none lg:grid-cols-2">
           <div className="flex flex-col pb-10 sm:pb-16 lg:pb-0 lg:pr-8 xl:pr-20">
-            <h2 className="text-white text-2xl">Terabois-isolation.fr</h2>
+            <h2 className="text-white text-2xl">Avenue-immo.com</h2>
             <figure className="mt-10 flex flex-auto flex-col justify-between">
               <blockquote className="text-lg leading-8 text-white">
                 <p>
@@ -34,7 +34,7 @@ const Testimonials = () => {
                     className="mt-1 text-gray-400"
                     href="https://www.terabois-isolation.fr/nous-contacter"
                   >
-                    Gérant Maison terabois
+                    Créateur de avenue-immo.com
                   </a>
                 </div>
               </figcaption>
