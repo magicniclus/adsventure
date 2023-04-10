@@ -6,6 +6,7 @@ import HeaderWithHeroTwo from "../Organisms/Headers/HeaderWithHeroTwo";
 import ValideModale from "../Organisms/Modales/ValideModale";
 import { useSelector } from "react-redux";
 import ErrorModal from "../Organisms/Modales/ErrorModal";
+import Loader from "../Organisms/Loader/Loader";
 
 const LandingPage = (props) => {
   const description = props.description || null;
@@ -36,6 +37,7 @@ const LandingPage = (props) => {
         />
       </Head>
       <main className="min-h-[100vh] relative">
+        {/* <Loader /> */}
         {withHero ? <HeaderWithHeroTwo /> : <Header />}
         {props.children}
       </main>
