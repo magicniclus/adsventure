@@ -14,6 +14,7 @@ import {
   PhoneIcon,
 } from "@heroicons/react/20/solid";
 import { useRouter } from "next/router";
+import Svg from "../../Molecules/Svg/Svg";
 
 const Header = (props) => {
   const router = useRouter();
@@ -72,11 +73,16 @@ const Header = (props) => {
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
-          <a href="/" className="-m-1.5 p-1.5">
+          <a href="/" className="-m-1.5 p-1.5 flex items-center">
             <span className="sr-only">adsventure</span>
             <img
               className="h-10 w-auto"
               src="/images/logo/AdsVenture-blue-little.png"
+              alt="logo adsventure"
+            />
+            <img
+              className="h-8 w-auto ml-5"
+              src="/images/logo/adscertificat.png"
               alt="logo adsventure"
             />
           </a>
