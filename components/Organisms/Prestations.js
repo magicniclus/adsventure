@@ -75,9 +75,7 @@ const Prestations = () => {
           </h2>
         </div>
         <p className="mx-auto mt-6 max-w-2xl text-center text-lg leading-8 text-gray-300">
-          énéficiez de notre <strong>expertise</strong> et de notre{" "}
-          <strong>savoir-faire</strong> pour la création de votre site web,
-          landing pages ou ecommerce. Profitez également de notre service de{" "}
+          Bénéficiez de notre service de{" "}
           <strong>
             création et gestion de campagnes publicitaires Google Ads
           </strong>{" "}
