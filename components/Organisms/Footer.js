@@ -149,7 +149,8 @@ const Footer = () => {
               alt="Adsventure"
             />
             <p className="text-sm leading-6 text-gray-600">
-              AdsVenture, agence certifié par Google.
+              <strong>AdsVenture</strong>, <strong>agence certifiée</strong> par{" "}
+              <strong>Google</strong>.
             </p>
             <div className="flex space-x-6">
               {navigation.social.map((item) => (
