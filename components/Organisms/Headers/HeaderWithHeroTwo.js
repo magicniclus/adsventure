@@ -12,6 +12,13 @@ const HeaderWithHeroTwo = () => {
   const textRef = useRef();
   const buttonRef = useRef();
 
+  const [nbrImages, setNbrImages] = useState(0);
+  const totalImg = 5;
+
+  useEffect(() => {
+    console.log(nbrImages);
+  }, [nbrImages]);
+
   useEffect(() => {
     // Animation de l'image
     gsap.fromTo(
@@ -114,6 +121,10 @@ const HeaderWithHeroTwo = () => {
       }
     );
   }, []);
+
+  const updateImg = (img) => {
+    console.log(img);
+  };
 
   //Le composant
   const navigation = [
@@ -224,6 +235,7 @@ const HeaderWithHeroTwo = () => {
                         src="https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=528&q=80"
                         alt=""
                         ref={imageRefOne}
+                        onLoad={(e) => updateImg("one")}
                         className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                       />
                       <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
@@ -235,6 +247,7 @@ const HeaderWithHeroTwo = () => {
                         ref={imageRefTwo}
                         src="https://images.unsplash.com/photo-1485217988980-11786ced9454?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=528&q=80"
                         alt=""
+                        onLoad={(e) => updateImg("two")}
                         className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
                       />
                       <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
@@ -245,6 +258,7 @@ const HeaderWithHeroTwo = () => {
                         alt=""
                         ref={imageRefThree}
                         className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
+                        onLoad={(e) => updateImg("three")}
                       />
                       <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
                     </div>
@@ -256,6 +270,7 @@ const HeaderWithHeroTwo = () => {
                         src="https://images.unsplash.com/photo-1670272504528-790c24957dda?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&crop=left&w=400&h=528&q=80"
                         alt=""
                         className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
+                        onLoad={(e) => updateImg("four")}
                       />
                       <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
                     </div>
@@ -265,6 +280,7 @@ const HeaderWithHeroTwo = () => {
                         src="https://images.unsplash.com/photo-1670272505284-8faba1c31f7d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&h=528&q=80"
                         alt=""
                         className="aspect-[2/3] w-full rounded-xl bg-gray-900/5 object-cover shadow-lg"
+                        onLoad={(e) => updateImg("five")}
                       />
                       <div className="pointer-events-none absolute inset-0 rounded-xl ring-1 ring-inset ring-gray-900/10" />
                     </div>
