@@ -138,10 +138,10 @@ const ContentSection = () => {
             </dl>
             <div className="mt-10 flex">
               <a
-                href="#"
+                href="#service"
                 className="text-base font-semibold leading-7 text-indigo-600"
               >
-                En savoir plus sur nous
+                Nos préstations
                 <span aria-hidden="true">&rarr;</span>
               </a>
             </div>
