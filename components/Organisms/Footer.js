@@ -149,7 +149,7 @@ const Footer = () => {
               alt="Adsventure"
             />
             <p className="text-sm leading-6 text-gray-600">
-              AdsVenture, propulsez votre entreprise vers de nouveaux sommets.
+              AdsVenture, agence certifié par Google.
             </p>
             <div className="flex space-x-6">
               {navigation.social.map((item) => (
