@@ -19,14 +19,14 @@ const Timeline = () => {
     {
       name: "Optimisation",
       description:
-        "Surveillez et ajustez régulièrement les enchères, les mots-clés et les annonces pour maximiser votre retour sur investissement.",
+        "Nous surveillons et ajustons continuellement les enchères, les mots-clés et les annonces pour maximiser votre retour sur investissement.",
       date: "Etape 3",
       dateTime: "2022-02",
     },
     {
       name: "Scaling",
       description:
-        " Une fois que nous avons trouvé une formule gagnante, augmentez votre budget et votre portée pour accroître votre impact et augmenter votre chiffre d'affaire.",
+        " Une fois que nous avons trouvé une formule gagnante, nous pouvons décider d'augmentez votre budget et votre portée pour accroître votre impact et augmenter votre chiffre d'affaire.",
       date: "Etape 4",
       dateTime: "2022-12",
     },
