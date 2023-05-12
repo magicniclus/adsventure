@@ -24,7 +24,7 @@ const HeaderWithHeroTwo = () => {
     gsap.fromTo(
       imageRefOne.current,
       {
-        y: 800,
+        y: 1000,
         opacity: 0,
       },
       {
@@ -37,7 +37,7 @@ const HeaderWithHeroTwo = () => {
     gsap.fromTo(
       imageRefTwo.current,
       {
-        y: 800,
+        y: 1000,
         opacity: 0,
       },
       {
@@ -51,7 +51,7 @@ const HeaderWithHeroTwo = () => {
     gsap.fromTo(
       imageRefThree.current,
       {
-        y: 800,
+        y: 1000,
         opacity: 0,
       },
       {
@@ -64,7 +64,7 @@ const HeaderWithHeroTwo = () => {
     gsap.fromTo(
       imageRefFour.current,
       {
-        y: 800,
+        y: 1000,
         opacity: 0,
       },
       {
@@ -78,7 +78,7 @@ const HeaderWithHeroTwo = () => {
     gsap.fromTo(
       imageRefFive.current,
       {
-        y: 800,
+        y: 1000,
         opacity: 0,
       },
       {
@@ -93,7 +93,7 @@ const HeaderWithHeroTwo = () => {
     gsap.fromTo(
       textRef.current,
       {
-        x: -1200,
+        x: -1500,
         opacity: 0,
       },
       {
