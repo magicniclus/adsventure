@@ -32,8 +32,8 @@ const GoogleAssets = () => {
   return (
     <div className="bg-white py-24 sm:py-32">
       <div className="mx-auto max-w-7xl px-6 lg:px-8">
-        <h2 className="mt-2 text-4xl font-bold tracking-tight text-indigo-600 sm:text-5xl mb-10">
-          L'Aventure Adsventure
+        <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl mb-20">
+          Les atouts de Google ads
         </h2>
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-8 overflow-hidden lg:mx-0 lg:max-w-none lg:grid-cols-4">
           {timeline.map((item, idx) => (
