@@ -11,9 +11,9 @@ const Expertise = () => {
             alt="logo adsventure"
           />
           <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
-            Google nous reconnait comme
+            Google reconnait l'agence comme
             <br />
-            expert Google ads
+            certifié Google ads
           </h2>
           <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-indigo-200">
             Après des années d'expérience et de travail acharné, Google nous a
