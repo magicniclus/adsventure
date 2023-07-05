@@ -17,6 +17,7 @@ const LandingPage = (props) => {
   const state = useSelector((state) => state);
   const [show, setShow] = useState(false);
   const [showError, setShowError] = useState(false);
+  const certificate = props.certificate || false;
   useEffect(() => {
     state.validModal?.show ? setShow(true) : setShow(false);
   }, [state.validModal]);
@@ -38,7 +39,11 @@ const LandingPage = (props) => {
       </Head>
       <main className="min-h-[100vh] relative">
         {/* <Loader /> */}
-        {withHero ? <HeaderWithHeroTwo /> : <Header />}
+        {withHero ? (
+          <HeaderWithHeroTwo certificate={certificate} />
+        ) : (
+          <Header certificate={certificate} />
+        )}
         {props.children}
       </main>
       <Footer />
