@@ -71,7 +71,7 @@ const Timeline = () => {
             href="#service"
             className="text-base font-semibold leading-7 text-indigo-600"
           >
-            Connaître nos formules
+            Prendre rendez-vous
             <span aria-hidden="true">&rarr;</span>
           </a>
         </div>
