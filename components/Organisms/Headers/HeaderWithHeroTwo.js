@@ -2,7 +2,8 @@ import { useState, useRef, useEffect } from "react";
 import Header from "./Header";
 import { gsap } from "gsap";
 
-const HeaderWithHeroTwo = () => {
+const HeaderWithHeroTwo = (props) => {
+  const certificate = props.certificate || false;
   //Animaiton
   const imageRefOne = useRef();
   const imageRefTwo = useRef();
@@ -136,7 +137,7 @@ const HeaderWithHeroTwo = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   return (
     <div className="bg-white relative">
-      <Header whiteBg={true} />
+      <Header whiteBg={true} certificate={certificate} />
       <main>
         <div className="relative isolate">
           <svg
