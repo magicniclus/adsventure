@@ -12,6 +12,7 @@ export default function Home() {
       description="Boostez vos ventes avec AdsVenture, agence Google Ads experte en stratégies SEA. Atteignez vos objectifs et augmentez votre ROI. Contactez-nous !"
       title="AdsVenture: Gagnez en visibilité avec nos experts Google Ads"
       withHero={true}
+      certificate={true}
     >
       <ContentSection />
       <Timeline />
