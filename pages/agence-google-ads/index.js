@@ -5,6 +5,8 @@ import GoogleAssets from "../../components/Organisms/section/GoogleAssets";
 import Trust from "../../components/Organisms/section/Trust";
 import AllGoogleService from "../../components/Organisms/section/AllGoogleService";
 import Strategy from "../../components/Organisms/section/Strategy";
+import Expertise from "../../components/Organisms/section/Expertise";
+import TimeLine from "../../components/Organisms/TimeLine";
 
 const index = () => {
   return (
@@ -14,6 +16,8 @@ const index = () => {
       <Trust />
       <AllGoogleService />
       <Strategy />
+      <Expertise />
+      <TimeLine />
     </LandingPage>
   );
 };
