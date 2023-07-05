@@ -48,8 +48,8 @@ const AllGoogleService = () => {
             Deployez vous rapidement sur tous les outils publicitaires de Google
           </h2>
           <p className="mt-4 text-lg leading-8 text-gray-400">
-            Google est l'outil le plus complet et le plus puissant pour vos
-            campagnes
+            Google est l'un des outils le plus complet et le plus puissant pour
+            vos campagnes
           </p>
         </div>
         <ul
