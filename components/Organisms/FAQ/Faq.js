@@ -2,8 +2,8 @@ import React from "react";
 import { Disclosure } from "@headlessui/react";
 import { MinusSmallIcon, PlusSmallIcon } from "@heroicons/react/24/outline";
 
-const Faq = () => {
-  const faqs = [
+const Faq = (props) => {
+  const faqs = props.faq || [
     {
       question: "Qu'est-ce qu'Adsventure ?",
       answer:
