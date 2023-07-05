@@ -2,30 +2,24 @@ import React from "react";
 const jobOpenings = [
   {
     id: 1,
-    type: "Full-time designer",
+    type: "Ventes en ligne",
     href: "#",
     description:
-      "Quos sunt ad dolore ullam qui. Enim et quisquam dicta molestias. Corrupti quo voluptatum eligendi autem labore.",
-    salary: "$75,000 USD",
-    location: "San Francisco, CA",
+      "Google Ads est essentiel pour votre commerce en ligne grâce à sa visibilité sur le moteur de recherche le plus utilisé. Vous pouvez cibler votre public, ajuster vos budgets et contrôler les performances de vos campagnes en temps réel. Avec Google Shopping, vos produits sont directement mis en avant dans les résultats de recherche de Google, optimisant ainsi votre visibilité et stimulant vos ventes en ligne.",
   },
   {
     id: 2,
-    type: "Laravel developer",
+    type: "Génération de leads",
     href: "#",
     description:
-      "Et veniam et officia dolorum rerum. Et voluptas consequatur magni sapiente amet voluptates dolorum. Ut porro aut eveniet.",
-    salary: "$125,000 USD",
-    location: "San Francisco, CA",
+      "Google Ads est un outil incontournable pour la génération de leads. En ciblant avec précision votre public et en adaptant vos annonces en fonction de mots-clés pertinents, vous pouvez attirer des prospects intéressés par vos produits ou services. De plus, grâce à des outils d'analyse intégrés, vous pouvez suivre et optimiser en temps réel l'efficacité de vos campagnes, ce qui est essentiel pour améliorer continuellement votre taux de conversion de prospects en clients.",
   },
   {
     id: 3,
-    type: "React Native developer",
+    type: "Notoriété de marque",
     href: "#",
     description:
-      "Veniam ipsam nisi quas architecto eos non voluptatem in nemo. Est occaecati nihil omnis delectus illum est.",
-    salary: "$105,000 USD",
-    location: "San Francisco, CA",
+      "Google Ads est un outil clé pour augmenter votre notoriété. En permettant un ciblage précis, vos campagnes peuvent atteindre un large public pertinent, améliorant ainsi la reconnaissance de votre marque. De plus, grâce à sa visibilité sur le moteur de recherche le plus utilisé, Google Ads assure que vos annonces sont vues par un maximum d'internautes, boostant ainsi votre notoriété en ligne.",
   },
 ];
 
@@ -67,10 +61,6 @@ const Strategy = () => {
                       {opening.description}
                     </dd>
                     <dt className="sr-only">Salary</dt>
-                    <dd className="mt-4 text-base font-semibold leading-7 text-gray-900">
-                      {opening.salary}
-                    </dd>
-                    <dt className="sr-only">Location</dt>
                     <dd className="mt-4 flex items-center gap-x-3 text-base leading-7 text-gray-500">
                       <svg
                         viewBox="0 0 2 2"
@@ -79,18 +69,17 @@ const Strategy = () => {
                       >
                         <circle cx={1} cy={1} r={1} />
                       </svg>
-                      {opening.location}
                     </dd>
                   </dl>
                 </li>
               ))}
             </ul>
-            <div className="mt-8 flex border-t border-gray-100 pt-8">
+            <div className="mt-10 flex items-center gap-x-6 w-full ">
               <a
                 href="#"
-                className="text-sm font-semibold leading-6 text-indigo-600 hover:text-indigo-500"
+                className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
-                View all openings <span aria-hidden="true">&rarr;</span>
+                Prendre rendez-vous <span aria-hidden="true">→</span>
               </a>
             </div>
           </div>
