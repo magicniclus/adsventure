@@ -15,7 +15,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <link rel="shortcut icon" href="/images/AdsVenture-favicon.png" />
+        <link rel="shortcut icon" href="/images/logo/littleLogo.png" />
       </Head>
       <Provider store={store}>
         <Component {...pageProps} />
