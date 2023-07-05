@@ -14,10 +14,12 @@ import {
   PhoneIcon,
 } from "@heroicons/react/20/solid";
 import { useRouter } from "next/router";
-import Svg from "../../Molecules/Svg/Svg";
 
 const Header = (props) => {
   const router = useRouter();
+
+  const certificate = props.certificate || true;
+
   function classNames(...classes) {
     return classes.filter(Boolean).join(" ");
   }
@@ -80,11 +82,13 @@ const Header = (props) => {
               src="/images/logo/AdsVenture-blue-little.png"
               alt="logo adsventure"
             />
-            <img
-              className="h-8 w-auto ml-5"
-              src="/images/logo/adscertificat.png"
-              alt="logo adsventure"
-            />
+            {certificate ? (
+              <img
+                className="h-8 w-auto ml-5"
+                src="/images/logo/adscertificat.png"
+                alt="logo adsventure"
+              />
+            ) : null}
           </a>
         </div>
         <div className="flex lg:hidden">
@@ -107,7 +111,6 @@ const Header = (props) => {
               }`}
               onClick={handleServiceClick}
               onMouseEnter={handleClick}
-              // onMouseLeave={handleClick}
             >
               Services
               <ChevronDownIcon
@@ -115,7 +118,6 @@ const Header = (props) => {
                 aria-hidden="true"
               />
             </Popover.Button>
-
             <Transition
               as={Fragment}
               enter="transition ease-out duration-200"
