@@ -9,19 +9,21 @@ import Expertise from "../../components/Organisms/section/Expertise";
 import TimeLine from "../../components/Organisms/TimeLine";
 import TestimonialGads from "../../components/Organisms/section/TestimonialGads";
 import Cta from "../../components/Organisms/Cta";
+import FAQ from "../../components/Organisms/FAQ/Faq";
 
 const index = () => {
   return (
     <LandingPage certificate={true}>
       <HeroLandingPage />
       <GoogleAssets />
-      <Trust />
+      {/* <Trust /> */}
       <AllGoogleService />
       <Strategy />
       <Expertise />
       <TimeLine />
       <TestimonialGads />
       <Cta />
+      <FAQ />
     </LandingPage>
   );
 };
