@@ -3,37 +3,37 @@ const people = [
   {
     title: "Google Search",
     description:
-      "Plusieurs milliards de recherches sont effectuées tous les jours sur Google search. Vos prospects sont déjà entrain de rechercher vos produits ou services. Soyez visibles.",
+      "L'outil Google Search est une plateforme puissante qui permet de localiser instantanément des informations précises sur le web. Avec son ciblage précis et ses fonctionnalités avancées, il offre une opportunité unique pour connecter votre marque avec des prospects qualifiés au moment exact de leur recherche.",
     imageUrl: "/images/logo/google.png",
   },
   {
     title: "Youtube",
     description:
-      "Youtube représente une audience sans équivalent de plus de 2 milliards d’utilisateurs connectés chaque mois. 1 milliard d’heures visionnées chaque jour ! En France, Youtube est le deuxième site le plus visité !",
+      "YouTube est une plateforme de partage de vidéos de premier plan qui permet aux marques de toucher un large public à travers du contenu visuel engageant. Avec son potentiel de ciblage et sa portée mondiale, YouTube offre une plateforme unique pour raconter l'histoire de votre marque et engager de manière significative avec votre public cible.",
     imageUrl: "/images/logo/yt.svg",
   },
   {
     title: "Google shopping",
     description:
-      "Les annonces Google Shopping sont idéales pour accroître la visibilité de vos produits et augmenter vos taux d’acquisition et de conversion.",
+      "Google Shopping est un service de comparaison de prix qui permet aux commerçants d'afficher leurs produits directement dans les résultats de recherche de Google. Il offre une manière efficace pour les entreprises de mettre en avant leurs produits, d'attirer des clients potentiels et d'optimiser leurs ventes en ligne.",
     imageUrl: "/images/logo/gtag.png",
   },
   {
     title: "Google display",
     description:
-      "Le Réseau Display de Google permet de toucher la majorité des internautes à travers le monde sur des millions de sites, de pages d’actualités, de blogs et de sites Google tels que Gmail et YouTube.",
+      "Google Display est un réseau publicitaire visuel qui permet aux entreprises d'afficher des annonces sous forme de bannières sur une multitude de sites web à travers le monde. C'est un outil puissant pour augmenter la notoriété de la marque, cibler des audiences spécifiques et stimuler l'engagement en présentant du contenu visuellement attrayant à un large éventail d'utilisateurs.",
     imageUrl: "/images/logo/display.png",
   },
   {
     title: "Performance MAX",
     description:
-      "Avec Google Performance Max vous pouvez atteindre vos objectifs sur l’ensembles des leviers Google tout en optimisant les coûts de vos campagnes digitales.",
+      "Performance Max est une campagne automatisée de Google qui utilise l'apprentissage automatique pour optimiser les performances sur tous les réseaux de Google. C'est un outil précieux pour les entreprises qui cherchent à maximiser leur ROI, atteindre des objectifs spécifiques et gérer leurs annonces de manière plus efficace à travers différents canaux.",
     imageUrl: "/images/logo/perf.png",
   },
   {
     title: "Application",
     description:
-      "Augmentez le taux de téléchargement de votre application et fidélisez vos clients grâce à une stratégie mobile performante.",
+      "Maximisez le nombre de téléchargements de votre application avec les outils optimisés de Google. Renforcez par la suite la fidélité des utilisateurs grâce à une stratégie mobile performante et ciblée.",
     imageUrl: "/images/logo/play.png",
   },
   // More people...
