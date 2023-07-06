@@ -55,7 +55,7 @@ const Cta = () => {
             className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl overflow-hidden"
             ref={textRef}
           >
-            Réservez votre appel gratuit dès maintenant !
+            Nos équipes spécilisés Google ads sont la pour vous !
           </h2>
         </div>
         <div className="mt-10 flex items-center gap-x-6 lg:mt-0 lg:flex-shrink-0 overflow-hidden">
@@ -64,7 +64,7 @@ const Cta = () => {
             href="https://calendly.com/adventure-contact/rendez-vous-decouverte?month=2023-03"
             className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
           >
-            Je reserve un call
+            Prendre rendez-vous <span aria-hidden="true">→</span>
           </a>
         </div>
       </div>
