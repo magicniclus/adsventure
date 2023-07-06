@@ -3,7 +3,7 @@ const people = [
   {
     name: "avenue-immo.com",
     tags: "Plateforme immobilière",
-    imageUrl: "/images/logo/portailimmo.png",
+    imageUrl: "/images/logo/avenueimmo.png",
     bio: "Avenue-immo.com est un portail immobilier qui permet aux professonels de générer des demandes d'estimation qualifiers et de vendre leurs biens.",
     CPA: "22€",
     conversion: "+ 150%",
@@ -22,6 +22,15 @@ const people = [
     imageUrl: "/images/logo/terabois.png",
     bio: "Terabois est une entreprise de construction et de rénovation de maisons individuelles.",
     CPA: "16€",
+    conversion: "+ 100%",
+  },
+
+  {
+    name: "Conciergerie-castera.fr",
+    tags: "Service de conciergerie",
+    imageUrl: "/images/logo/conciergeriecastera.png",
+    bio: "Conciergerie-castera.fr est une entreprise de conciergerie qui propose des services de gestion locative et de location saisonnière sur Bordeaux et le Bassin d'Arcachon.",
+    CPA: "12€",
     conversion: "+ 100%",
   },
 ];
@@ -56,9 +65,9 @@ const TestimonialGads = () => {
               className="flex flex-col gap-10 pt-12 sm:flex-row"
             >
               <img
-                className="aspect-[4/5] w-52 flex-none rounded-2xl object-contain"
+                className="aspect-[4/5] w-24 flex-none rounded-2xl object-contain"
                 src={person.imageUrl}
-                alt=""
+                alt={person.name}
               />
               <div className="max-w-xl flex-auto">
                 <h3 className="text-lg font-semibold leading-8 tracking-tight text-gray-900">
