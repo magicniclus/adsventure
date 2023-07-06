@@ -1,29 +1,30 @@
 import React from "react";
 const timeline = [
   {
-    name: "Capitalisez sur vos audiences",
+    name: "Maximisez le potentiel de vos audiences",
     description:
-      "Mettre les utilisateurs au centre de votre stratégie digital pour booster vos campagnes marketing",
+      "Placez les utilisateurs au cœur de votre stratégie numérique pour dynamiser vos campagnes marketing.",
     date: "Aug 2021",
     dateTime: "2021-08",
   },
   {
-    name: "Le Search de Google est votre allié",
+    name: "Travailler avec le Search Google",
     description:
-      "Atteignez des décideurs qualifiés par secteur d’activité ou par fonction",
+      "Acquérez de nouveaux clients en vous positionnant stratégiquement au moment le plus propice. ",
     date: "Dec 2021",
     dateTime: "2021-12",
   },
   {
-    name: "Utilisez Youtube et les formats vidéo",
-    description: "Utilisez des publicités adaptées pour accroître l’engagement",
+    name: "Exploitez le plein potentiel de YouTube",
+    description:
+      "Positionnez vous sur la plateform video la plus utilisée au monde",
     date: "Feb 2022",
     dateTime: "2022-02",
   },
   {
-    name: "Investissez dans la publicité display",
+    name: "Choisissez le Display Google",
     description:
-      "Fixez le budget idéal pour atteindre vos objectifs commerciaux",
+      "Choisissez le display pour apparetre sur l'ensemble des moteurs de recherche partenaire à Google.",
     date: "Dec 2022",
     dateTime: "2022-12",
   },
