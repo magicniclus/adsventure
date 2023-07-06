@@ -34,7 +34,7 @@ const HeroLandingPage = () => {
             </h2>
           </div>
           <h1 className="mt-10 text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-            Votre ROI pourrait augmenter de manière spectaculaire grâce à{" "}
+            Votre ROI pourrait atteindre de nouveaux sommets grâce à{" "}
             <span className="text-indigo-600">Google Ads</span>
           </h1>
           <p className="mt-6 text-lg leading-8 text-gray-600">
