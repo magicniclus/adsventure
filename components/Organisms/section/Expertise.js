@@ -2,7 +2,7 @@ import React from "react";
 
 const Expertise = () => {
   return (
-    <div className="bg-gray-900">
+    <div className="bg-indigo-100">
       <div className="px-6 py-24 sm:px-6 sm:py-32 lg:px-8">
         <div className="mx-auto max-w-2xl text-center flex items-center flex-col">
           <img
@@ -10,12 +10,12 @@ const Expertise = () => {
             src="/images/logo/adscertificat.png"
             alt="logo adsventure"
           />
-          <h2 className="text-3xl font-bold tracking-tight text-white sm:text-4xl">
+          <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
             Google reconnait l'agence comme
             <br />
             certifié Google ads
           </h2>
-          <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-indigo-200">
+          <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-600 ">
             Après des années d'expérience et de travail acharné, Google nous a
             reconnu comme expert Google ads.
           </p>
