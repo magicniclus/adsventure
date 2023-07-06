@@ -18,7 +18,7 @@ const Faq = (props) => {
     {
       question: "Combien coûtent vos services ?",
       answer:
-        "Les tarifs de nos services varient en fonction de la taille et de la complexité de votre projet. Pour obtenir un devis personnalisé, n'hésitez pas à nous contacter et à nous fournir des informations sur vos objectifs et vos besoins spécifiques. Il est important de préciser qu'Adsventure ne collabore pas avec des entreprises générant moins de 25 000 € de chiffre d'affaires par mois.",
+        "Les tarifs de nos services varient en fonction de la taille et de la complexité de votre projet. Pour obtenir un devis personnalisé, n'hésitez pas à nous contacter et à nous fournir des informations sur vos objectifs et vos besoins spécifiques.",
     },
     {
       question:
