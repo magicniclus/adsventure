@@ -6,28 +6,28 @@ const Timeline = () => {
       name: "Analyse",
       description:
         "Analyse des tendances de recherche et les données démographiques pour mieux comprendre votre public et adapter votre stratégie de mots-clés.",
-      date: "Etape 1",
+      date: "1",
       dateTime: "2021-08",
     },
     {
       name: "Testing",
       description:
         "Testing et analyse des performances de la campagne, ajustements et optimisation des éléments pour améliorer la qualité et l'efficacité de la campagne.",
-      date: "Etape 2",
+      date: "2",
       dateTime: "2021-12",
     },
     {
       name: "Optimisation",
       description:
         "Nous surveillons et ajustons continuellement les enchères, les mots-clés et les annonces pour maximiser votre retour sur investissement.",
-      date: "Etape 3",
+      date: "3",
       dateTime: "2022-02",
     },
     {
       name: "Scaling",
       description:
         " Une fois que nous avons trouvé une formule gagnante, nous pouvons décider d'augmentez votre budget et votre portée pour accroître votre impact et augmenter votre chiffre d'affaire.",
-      date: "Etape 4",
+      date: "4",
       dateTime: "2022-12",
     },
   ];
@@ -66,7 +66,7 @@ const Timeline = () => {
             </div>
           ))}
         </div>
-        <div className="mt-10 flex">
+        {/* <div className="mt-10 flex">
           <a
             href="#service"
             className="text-base font-semibold leading-7 text-indigo-600"
@@ -74,7 +74,7 @@ const Timeline = () => {
             Prendre rendez-vous
             <span aria-hidden="true">&rarr;</span>
           </a>
-        </div>
+        </div> */}
       </div>
     </div>
   );
