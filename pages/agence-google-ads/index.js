@@ -8,6 +8,7 @@ import Strategy from "../../components/Organisms/section/Strategy";
 import Expertise from "../../components/Organisms/section/Expertise";
 import TimeLine from "../../components/Organisms/TimeLine";
 import TestimonialGads from "../../components/Organisms/section/TestimonialGads";
+import Cta from "../../components/Organisms/Cta";
 
 const index = () => {
   return (
@@ -20,6 +21,7 @@ const index = () => {
       <Expertise />
       <TimeLine />
       <TestimonialGads />
+      <Cta />
     </LandingPage>
   );
 };
