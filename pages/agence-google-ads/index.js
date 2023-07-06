@@ -13,10 +13,14 @@ import FAQ from "../../components/Organisms/FAQ/Faq";
 
 const index = () => {
   return (
-    <LandingPage certificate={true}>
+    <LandingPage
+      certificate={true}
+      canonical="agence-google-ads"
+      description="Boostez votre ROI avec Ads Venture, agence certifiée Google Ads. Spécialistes en gestion de campagne AdWords offrant des solutions sur mesure."
+      title="Agence Google Ads certifiée - Expertise en AdWords | Ads Venture"
+    >
       <HeroLandingPage />
       <GoogleAssets />
-      {/* <Trust /> */}
       <AllGoogleService />
       <Strategy />
       <Expertise />
