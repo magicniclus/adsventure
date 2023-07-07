@@ -2,11 +2,10 @@ import React from "react";
 import LandingPage from "../../components/Layout/LandingPage";
 import HeroLandingPage from "../../components/Organisms/Hero/HeroLandingPage";
 import GoogleAssets from "../../components/Organisms/section/GoogleAssets";
-import Trust from "../../components/Organisms/section/Trust";
 import AllGoogleService from "../../components/Organisms/section/AllGoogleService";
 import Strategy from "../../components/Organisms/section/Strategy";
 import Expertise from "../../components/Organisms/section/Expertise";
-import TimeLine from "../../components/Organisms/TimeLine";
+import Timeline from "../../components/Organisms/Timeline";
 import TestimonialGads from "../../components/Organisms/section/TestimonialGads";
 import Cta from "../../components/Organisms/Cta";
 import FAQ from "../../components/Organisms/FAQ/Faq";
@@ -24,7 +23,7 @@ const index = () => {
       <AllGoogleService />
       <Strategy />
       <Expertise />
-      <TimeLine />
+      <Timeline />
       <TestimonialGads />
       <Cta />
       <FAQ />
