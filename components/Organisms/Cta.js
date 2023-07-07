@@ -55,7 +55,7 @@ const Cta = () => {
             className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl overflow-hidden"
             ref={textRef}
           >
-            Nos équipes spécilisés Google ads sont la pour vous !
+            Nos équipes marketing spécilisés Google ads sont la pour vous !
           </h2>
         </div>
         <div className="mt-10 flex items-center gap-x-6 lg:mt-0 lg:flex-shrink-0 overflow-hidden">
